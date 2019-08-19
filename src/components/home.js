@@ -4,7 +4,7 @@ const Home = () => {
     return(
         <div className="container">
             <h4 className="...">Home</h4>
-            {/* content in here */}
+           <p>aohgoabaopsdgaosghvnZklna a ad adi opihjpaoksgn vagioahg </p>
         </div>
     )
 }
