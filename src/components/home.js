@@ -2,10 +2,11 @@ import React from "react";
 
 const Home = () => {
     return(
-        <div className="container">
-            <h4 className="...">Home</h4>
-           <p>aohgoabaopsdgaosghvnZklna a ad adi opihjpaoksgn vagioahg </p>
-        </div>
+        <div id="leftSideCol" class="col-xl-2">
+                <div id="landing-section">
+                    <h1 id="name">Camerone Stoney</h1>
+                </div>
+            </div>
     )
 }
 
