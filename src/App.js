@@ -5,18 +5,38 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Contact from './pages/contact'
+import cards from './cards.json'
 
-function App() {
-  return (
-    <BrowserRouter>
+class App extends React.Component {
+  state = {
+    cards
+  }
+
+  render() {
+    return (
+      <BrowserRouter>
+     
         <Navbar />
-          <Route  exact path='/' component={Home} />
-          <Route path='/portfolio' component={Portfolio} />
-          <Route path='/about' component={About} />
-          <Route path='/contact' component={Contact} />
+        <Route exact path='/' component={Home} />
+        <Route path='/portfolio' render={this.state.cards.map = (props) => {
+          return(<Portfolio
+            id={props.id}
+            key={props.id}
+            name={props.projName}
+            image={props.img} 
+            url={props.URL}/>
+          )
+        }}
+             isAuthed={true}
 
-    </BrowserRouter>
-  );
+        />
+        <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
+        
+      </BrowserRouter>
+
+    );
+  }
 }
 
 export default App;
