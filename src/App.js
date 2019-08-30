@@ -9,7 +9,7 @@ import cards from './cards.json'
 
 class App extends React.Component {
   state = {
-    cards
+    cards: cards
   }
 
   render() {
@@ -18,18 +18,7 @@ class App extends React.Component {
      
         <Navbar />
         <Route exact path='/' component={Home} />
-        <Route path='/portfolio' render={this.state.cards.map = (props) => {
-          return(<Portfolio
-            id={props.id}
-            key={props.id}
-            name={props.projName}
-            image={props.img} 
-            url={props.URL}/>
-          )
-        }}
-             isAuthed={true}
-
-        />
+        <Route path='/portfolio' component={Portfolio}/>
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
         

@@ -10,7 +10,7 @@ const Portfolio = (props) => {
             <div className="row">
                 <div className="col-xl-6">
                     <a className="projects-a top-row" href={props.url}>
-                        <img src="assets/images/psych_game.png" alt={props.name}/>
+                        <img src={props.image} alt={props.name}/>
                         <p className="image_title">{props.name}</p>
                     </a>
                 </div>
