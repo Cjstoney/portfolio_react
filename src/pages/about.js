@@ -9,7 +9,7 @@ const About = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-4">
-                                <img id="cs-image" src="assets/images/IMG_1483 2.jpg" alt="image of Camerone Stoney" />
+                                <img id="cs-image" src="assets/images/IMG_1483 2.jpg" alt=" Camerone Stoney" />
                                 <div className="col-xl-8">
                                     <h2 id="bio">I am Camerone Stoney. I moved from the San Francisco Bay Area to Portland,
                                         Oregon in 2015.
