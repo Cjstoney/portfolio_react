@@ -1,4 +1,9 @@
-#navbarSupportedContent>.nav-link{
-   align-items:right;
+.grid-container{
+   width:100%;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   text-align: center;
 }
+
+
 
