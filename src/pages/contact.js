@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
     return(
-        <div id="contact-content">
+        <div>
         <h1 className="section_header" id="contact">Contact</h1>
-        <div className="row">
+        <div >
             <div className="col-xl-4">
                 <a href="https://www.linkedin.com/in/camerone-stoney-b8a798177/">
                     <img id="linkedin_icon" className="contact-icon" src="assets/images/LI-In-Bug.png" />

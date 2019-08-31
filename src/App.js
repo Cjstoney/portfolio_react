@@ -5,11 +5,9 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Contact from './pages/contact'
-import cards from './cards.json'
 
 class App extends React.Component {
   state = {
-    cards: cards
   }
 
   render() {
