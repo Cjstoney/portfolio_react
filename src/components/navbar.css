@@ -1,8 +1,21 @@
+
 .grid-container{
    width:100%;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    text-align: center;
+   height:50px;
+   margin-top: 0px;
+   background-color: brown;
+   /* position:sticky;
+   top:0; */
+}
+
+.nav-link{
+   padding-top:15px;
+   text-decoration: none;
+   color: #eeeeee;
+   font-weight:bold;
 }
 
 

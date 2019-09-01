@@ -16,6 +16,7 @@ const Portfolio = () => {
                     key={data.id}
                     name={data.projName}
                     image={data.image}
+                    url={data.URL}
                 />
                 ))
                 }
