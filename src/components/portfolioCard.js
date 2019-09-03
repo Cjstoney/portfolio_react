@@ -1,14 +1,17 @@
 import React from "react";
+import './portfolioCard.css'
 
 
 const PortfolioCard = (props) => {
     return(
         
-                <div className="col-xl-6">
+                <div className="card-size-container">
+                    
                     <a className="projects-a top-row" href={props.url}>
-                        <img src={props.image} alt={props.name}/>
+                        <img className="image" src={props.image} alt={props.name}/>
                         <p className="image_title">{props.name}</p>
                     </a>
+                    
                 </div>
     )
 }

@@ -1,0 +1,20 @@
+#about{
+    text-align:center;
+    font-size: 50px;
+}
+
+.about-content{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:20px;
+}
+
+#cs-image{
+    align-content: center;
+    width: 100%;
+    margin:auto;
+}
+
+#bio{
+    font-size: 5vh;
+}
