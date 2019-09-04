@@ -19,6 +19,7 @@ const Portfolio = () => {
                                 name={data.projName}
                                 image={data.image}
                                 url={data.URL}
+                                description={data.description}
                             />
                         ))
                     }

@@ -11,6 +11,7 @@ const PortfolioCard = (props) => {
                         <img className="image" src={props.image} alt={props.name}/>
                         <p className="image_title">{props.name}</p>
                     </a>
+                        <p className="project-description">{props.description}</p>
                     
                 </div>
     )
