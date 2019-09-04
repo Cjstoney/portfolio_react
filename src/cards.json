@@ -3,31 +3,38 @@
         "id":"1",
         "projName":"Crystal Collector Game",
         "URL": "https://cjstoney.github.io/crystal_collector_game/",
-        "image":"images/crystal_collectors.png"
+        "image":"images/crystal_collectors.png",
+        "description":"Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score."
     },
     {
         "id":"2",
         "projName":"Psychic Guessing Game",
         "URL": "https://cjstoney.github.io/phychic_letter_game/",
-        "image":"images/psych_game.png"
+        "image":"images/psych_game.png",
+        "description":"Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the seceret letter."
+
     },
     {
         "id":"3",
         "projName":"RoadtriperZzz",
         "URL": "https://volksrat71.github.io/project-1/project-1/index.html",
-        "image":"images/roadtriperzzz.png"
+        "image":"images/roadtriperzzz.png",
+        "description":"Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz give them a destination, directions and a weather report for the destination."
     },
     {
         "id":"4",
         "projName":"Clicky Game",
         "URL": "https://cjstoney.github.io/clickyGame/",
-        "image":"images/ClickyGame.png"
+        "image":"images/ClickyGame.png",
+        "description":"Clicky Game is a React based game that lets the user click on as many images as possible, without clicking the same image twice."
+
     },
     {
         "id":"5",
         "projName":"Friend Finder",
         "URL": "https://limitless-crag-70308.herokuapp.com/survey",
-        "image":"images/Friend_Finder.png"
+        "image":"images/Friend_Finder.png",
+        "description":"Friend Finder is a node based game that lets the user fill out a survey and lets them know what user has the closest score based on their answers."
     }
     
 ]
