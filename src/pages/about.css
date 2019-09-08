@@ -6,15 +6,19 @@
 .about-content{
     display:grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap:20px;
+    grid-gap:50px;
+    height: calc(100vh - 10px);
 }
 
 #cs-image{
+    
     align-content: center;
-    width: 100%;
-    margin:auto;
+    max-width: 100%;
+    height:auto;
+    margin-left:10px;
 }
 
 #bio{
+    margin-top: 0px;
     font-size: 5vh;
 }

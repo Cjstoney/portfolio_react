@@ -6,7 +6,7 @@
    text-align: center;
    height:50px;
    margin-top: 0px;
-   background-color: brown;
+   background-color: #313a3e;
    /* position:sticky;
    top:0; */
 }
@@ -16,6 +16,10 @@
    text-decoration: none;
    color: #eeeeee;
    font-weight:bold;
+}
+
+.nav-link:hover{
+   color:#eb5e28;
 }
 
 

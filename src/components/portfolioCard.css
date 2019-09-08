@@ -1,6 +1,6 @@
 .card-size-container{
     border-radius: 15px;
-    border: 2px solid red;
+    border: 2px solid #313a3e;
     width: 100%;
     max-height:100%;
     position: relative;
@@ -11,10 +11,10 @@
     position:absolute;
     top: 200px;
     left: 0;
-    background:white;
-    opacity:0.8;
+    background:#fffcf2;
+    opacity:0.9;
     text-align: center;
-    color:black;
+    color:#1c1c21;
     text-decoration: none;
     display:inline-block;
     width:100%;
@@ -25,7 +25,7 @@
 }
 
 .image_title:hover{
-    color:red;
+    color:#eb5e28;
 }
 
 .image{
