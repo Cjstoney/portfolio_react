@@ -4,14 +4,14 @@
 }
 
 .text-container{
-    margin: auto;
+    margin: 15% auto;
+    
     width: 520px;
-    font-size: 40px;
-    height: 50px;
+    font-size: 50px;
+    height: 80px;
   }
   
   .dynamic-text, .static-text{
-      margin:0, auto;
     display: inline-block;
     text-align: center;
 
@@ -20,14 +20,15 @@
   .static-text{
 
     margin-right: 10px;
-    color: #41D3BD;
+    color: #1c1c21;
   }
   
   .dynamic-text{
     list-style: none;
     position: absolute;
     overflow: hidden;
-    height: 50px;
+    height: 60px;
+    padding-left: 10px;
   }
   
   .item{
@@ -38,20 +39,17 @@
     background: #fffcf2
   }
     .item:first-child{
-      color: #01BAEF;
+      color: #313a3e;
     }
     .item:nth-child(2){
-      color: #F79256;
+      color: #eb5e28;
     }
     
 
     @keyframes move{
         0%{top: 0px;}
-        25%{top: -50px;}
-        50%{top: -50px;}
+        25%{top: -60px;}
+        50%{top: -60px;}
         100%{top: 0px;}
-        /* 40%{top: -96px;}
-        60%{top: -146px;}
-        80%{top: -196px;} */
       }
   
