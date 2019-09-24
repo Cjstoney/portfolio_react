@@ -1,11 +1,16 @@
+.contact-page{
+    height: 100vh;
+}
+
 #contact{
     font-size:100px;
     text-align:center;
+    color:#fffcf2;
 }
 
 .contact-container{
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
     grid-gap: 10px;
 }
 
@@ -14,6 +19,7 @@
     box-shadow: 5px 10px 18px #888888;
     border: 2px solid #313a3e;
     border-radius:15px;
+    background:#fffcf2;
 
 }
 
