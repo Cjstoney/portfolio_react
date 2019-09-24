@@ -18,17 +18,22 @@
   }
   
   .static-text{
-
-    margin-right: 10px;
+    padding-right: 10px;
+    padding-left:10px;
+    margin-right: 0px;
     color: #1c1c21;
+    background: #fffcf2;
+    border-radius: 15px 0px 0px 15px;
   }
   
   .dynamic-text{
     list-style: none;
     position: absolute;
     overflow: hidden;
-    height: 60px;
-    padding-left: 10px;
+    height: 58px;
+    padding-left: 0px;
+    padding-right:10px;
+    border-radius: 0px 15px 15px 0px;
   }
   
   .item{
@@ -36,7 +41,9 @@
     top: 0;
     animation: move 5s;
     animation-delay: 2s;
-    background: #fffcf2
+    background: #fffcf2;
+    padding-right:10px;
+    border-radius: 0px 15px 15px 0px;
   }
     .item:first-child{
       color: #313a3e;
@@ -48,8 +55,8 @@
 
     @keyframes move{
         0%{top: 0px;}
-        25%{top: -60px;}
-        50%{top: -60px;}
+        25%{top: -58px;}
+        50%{top: -58px;}
         100%{top: 0px;}
       }
   
