@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "http://Cjstoney.github.io/portfolio",
   "version": "0.1.0",
   "dependencies": {
     "react": "^16.9.0",
