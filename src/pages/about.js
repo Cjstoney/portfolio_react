@@ -21,7 +21,7 @@ const About = () => {
                         working in web
                         development, using my art background to influence my aesthetic choices and my
                         woodworking production
-                    knowledge to build websites <br></br> from start to finish. </h2>
+                    knowledge to build websites from start to finish. </h2>
                 </div>
             </div>
         </div>
