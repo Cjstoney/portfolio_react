@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://myusername.github.io/portfolio_react",
   "version": "0.1.0",
   "dependencies": {
     "react": "^16.9.0",
