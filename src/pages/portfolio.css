@@ -7,4 +7,11 @@
 #portfolio{
     text-align: center;
     font-size: 75px;
+    /* background: #fffcf2;
+    border-radius: 15px; */
+}
+#portfolio-content{
+    color: #fffcf2;
+    border-radius: 15px;
+    margin:auto;
 }
