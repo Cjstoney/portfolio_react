@@ -7,7 +7,7 @@ const PortfolioCard = (props) => {
         
                 <div className="card-size-container">
                     
-                    <a className="projects-a top-row" href={props.url}>
+                    <a className="projects-a top-row" target='_blank' href={props.url}>
                         <img className="image" src={props.image} alt={props.name}/>
                         <p className="image_title">{props.name}</p>
                     </a>
