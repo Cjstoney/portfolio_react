@@ -1,7 +1,10 @@
 #landing-section{
+  box-sizing:border-box;
     font-size:100px;
-    height:100vh;
+    height:790px;
     overflow: hidden;
+    margin:0;
+    padding:0px;
   }
 
   #thumbnail{
