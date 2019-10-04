@@ -1,7 +1,7 @@
 .portfolio-map{
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
 }
 
 #portfolio{
@@ -11,7 +11,6 @@
     border-radius: 15px; */
 }
 #portfolio-content{
-    color: #fffcf2;
-    border-radius: 15px;
+    color: black;
     margin:auto;
 }

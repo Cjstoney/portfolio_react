@@ -19,10 +19,13 @@ const Portfolio = () => {
                                 name={data.projName}
                                 image={data.image}
                                 url={data.URL}
+                                ghurl={data.ghURL}
                                 description={data.description}
                             />
+                            
                         ))
                     }
+
                 </div>
             </div>
         </div>

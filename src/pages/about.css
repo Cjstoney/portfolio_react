@@ -16,9 +16,10 @@
 }
 
 .about-img{
+    object-fit: cover;
     overflow:hidden;
-    max-width:353px;
-    max-height:263px;
+    width:100%;
+    max-height:100%;
 }
 
 .bio{
@@ -48,6 +49,6 @@
     text-decoration: none;
     font-size: 40px;
 }
-.route:hover{
+Link.route:hover{
     color:red;
 }
