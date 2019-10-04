@@ -11,7 +11,7 @@ const Home = () => {
                 <p className="static-text">Hi, I'm Camerone</p>
             </div>
             <div id='overlay'></div>
-            <hr></hr>
+           
         </div>
 
     )

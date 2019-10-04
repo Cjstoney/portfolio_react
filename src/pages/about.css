@@ -32,3 +32,22 @@
     margin-top:auto;
     margin-bottom:auto;
 }
+
+.break{
+    margin:30px 350px 0px;
+}
+
+.forLink{
+    text-align: center;
+    margin:40px auto;
+
+}
+.route{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+.route:hover{
+    color:red;
+}

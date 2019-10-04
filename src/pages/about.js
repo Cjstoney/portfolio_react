@@ -32,9 +32,10 @@ const About = () => {
                 woodworking production
                     knowledge to build websites from start to finish. </h2>
             </div>
-
-            <Link to='/Portfolio' className='route' >Projects</Link>
-
+            <hr className='break'></hr>
+            <div className='forLink'>
+                <Link to='/Portfolio' className='route' >Projects</Link>
+            </div>
         </div>
 
     )
