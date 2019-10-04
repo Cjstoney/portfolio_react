@@ -1,4 +1,9 @@
 
+#navbar{
+   position: relative;
+   z-index: 5;
+}
+
 .grid-container{
    width:100%;
    display:grid;
@@ -6,7 +11,7 @@
    text-align: center;
    height:50px;
    margin-top: 0px;
-   background-color: #313a3e;
+   /* background-color: #313a3e; */
    /* position:sticky;
    top:0; */
 }

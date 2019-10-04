@@ -4,7 +4,7 @@ import "./navbar.css";
 
 function Navbar(){
   return (
-    <nav >
+    <nav id='navbar'>
 
         <ul className="navbar-nav grid-container">
             <Link to="/" className="nav-link">Home </Link>

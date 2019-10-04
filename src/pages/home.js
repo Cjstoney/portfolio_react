@@ -4,16 +4,13 @@ import './home.css';
 const Home = () => {
     return (
         <div id="landing-section">
+            <figure id='thumbnail'>
+                <img id='woodsImage' alt='woods' src='../../images/woods2_copy.png'></img>
+            </figure>
             <div className="text-container">
-            <p className="static-text">Hi, I'm</p>
-            <ul className="dynamic-text">
-                <li className="item">Camerone Stoney </li>
-                <li className="item">a web developer</li>
-                {/* <li className="item">UX/UI desiger</li>
-                <li className="item">content creator</li>
-                <li className="item">professor</li> */}
-            </ul>
-        </div>
+                <p className="static-text">Hi, I'm Camerone</p>
+            </div>
+            <div id='overlay'></div>
         </div>
 
     )
