@@ -12,8 +12,6 @@
    height:50px;
    margin-top: 0px;
    background-color: rgba(49,58,62, 0.2);
-   /* position:sticky;
-   top:0; */
 }
 
 .nav-link{
@@ -26,6 +24,3 @@
 .nav-link:hover{
    color:rgb(122, 122, 122);
 }
-
-
-
