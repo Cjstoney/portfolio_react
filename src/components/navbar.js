@@ -7,14 +7,9 @@ function Navbar(){
     <nav id='navbar'>
 
         <ul className="navbar-nav grid-container">
-            <Link to="/" className="nav-link">Home </Link>
-          
-          
-            <Link  to="/about"  className="nav-link">About</Link>
-           
+            <Link to="/" className="nav-link">Home </Link>           
           
             <Link to="/portfolio" className="nav-link" >Portfolio</Link>
-          
           
             <Link className="nav-link" to="/contact">Contact</Link>
           

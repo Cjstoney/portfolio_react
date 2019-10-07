@@ -7,11 +7,11 @@
 .grid-container{
    width:100%;
    display:grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
    text-align: center;
    height:50px;
    margin-top: 0px;
-   /* background-color: #313a3e; */
+   background-color: rgba(49,58,62, 0.2);
    /* position:sticky;
    top:0; */
 }
