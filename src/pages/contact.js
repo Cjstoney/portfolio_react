@@ -20,7 +20,7 @@ const Contact = () => {
             </div>
             <div className="icons">
                     <img id="pdf_icon" className="contact-icon" src="../images/iconfinder_file-pdf_383140.png" alt="PDF portfolio Icon" />
-                <a  href="assets/pdfs/document.pdf" target="_blank" rel='noopener noreferrer'><div className='contactBtn'>Take a look at my resume here</div>
+                <a  href="../assets/Camerone_Stoney_Resume.pdf" target="_blank" rel='noopener noreferrer'><div className='contactBtn'>Take a look at my resume here</div>
                 </a>
             </div>
         </div>
