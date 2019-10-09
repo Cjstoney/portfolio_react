@@ -1,23 +1,6 @@
 [
     {
         "id":"1",
-        "projName":"Crystal Collector Game",
-        "URL": "https://cjstoney.github.io/crystal_collector_game/",
-        "ghURL": "https://github.com/Cjstoney/crystal_collector_game",
-        "image":"images/crystal_collectors.png",
-        "description":"Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score."
-    },
-    {
-        "id":"2",
-        "projName":"Psychic Guessing Game",
-        "URL": "https://cjstoney.github.io/phychic_letter_game/",
-        "ghURL": "https://github.com/Cjstoney/phychic_letter_game",
-        "image":"images/psych_game.png",
-        "description":"Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the seceret letter."
-
-    },
-    {
-        "id":"3",
         "projName":"RoadtriperZzz",
         "URL": "https://volksrat71.github.io/project-1/project-1/index.html",
         "ghURL": "https://github.com/Cjstoney/RoadTriperzzz",
@@ -25,12 +8,38 @@
         "description":"Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz give them a destination, directions and a weather report for the destination."
     },
     {
-        "id":"4",
+        "id":"2",
         "projName":"Clicky Game",
         "URL": "https://cjstoney.github.io/clickyGame/",
         "ghURL": "https://github.com/Cjstoney/clickyGame",
         "image":"images/ClickyGame.png",
         "description":"Clicky Game is a React based game that lets the user click on as many images as possible, without clicking the same image twice."
+    
+    },
+    {
+        "id":"3",
+        "projName":"Camper",
+        "URL": "https://github.com/Cjstoney/Camper",
+        "ghURL": "https://github.com/Cjstoney/Camper",
+        "image":"images/Camper.jpg",
+        "description":"Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in. Student who do decide to login in have the added option of saving resources in order to be able to come back to them in the future with added ease."
+
+    },
+    {
+        "id":"4",
+        "projName":"Crystal Collector Game",
+        "URL": "https://cjstoney.github.io/crystal_collector_game/",
+        "ghURL": "https://github.com/Cjstoney/crystal_collector_game",
+        "image":"images/crystal_collectors.png",
+        "description":"Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score."
+    },
+    {
+        "id":"5",
+        "projName":"Psychic Guessing Game",
+        "URL": "https://cjstoney.github.io/phychic_letter_game/",
+        "ghURL": "https://github.com/Cjstoney/phychic_letter_game",
+        "image":"images/psych_game.png",
+        "description":"Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the seceret letter."
 
     }
     
