@@ -49,3 +49,41 @@
 Link.route:hover{
     color:rgb(122, 122, 122);
 }
+
+@media only screen and (max-width: 600px) {
+    #about{
+        color:black;
+        text-align:center;
+        font-size: 50px;
+    }
+    
+    .about-content{
+        margin:auto;
+        margin-bottom: 20px;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-gap:50px;
+        /* height: calc(50vh - 10px); */
+        width:90%;
+        justify-items: center;
+    }
+    div > .break{
+        margin:30px 350px 0px;
+    }
+    
+    .forLink{
+        text-align: center;
+        margin:40px auto;
+    
+    }
+    .route{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    Link.route:hover{
+        color:rgb(122, 122, 122);
+    }
+
+}
