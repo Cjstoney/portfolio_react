@@ -14,5 +14,7 @@ code {
 @media only screen and (max-width: 600px){
   body{
   padding-bottom:100px;
+  margin-bottom:100px;
   }
+  
 }
