@@ -49,3 +49,8 @@
 Link.route:hover{
     color:rgb(122, 122, 122);
 }
+
+@media only screen and (max-width: 600px) {
+
+    
+}
