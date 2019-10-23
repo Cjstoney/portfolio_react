@@ -76,7 +76,7 @@ Link.route:hover{
         grid-template-columns: 1fr;
         grid-gap:50px;
         /* height: calc(50vh - 10px); */
-        max-width:90%;
+        max-width:80%;
         justify-items: center;
     }
     div > .break{
