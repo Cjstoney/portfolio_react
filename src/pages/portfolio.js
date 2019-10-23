@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="project-container container-fluid">
             <div className="row">
                 <div id="portfolio-content">
-                    <h1 className="section_header" id="portfolio">Portfolio</h1>
+                    <p className="section_header" id="portfolio">Portfolio</p>
                 </div >
                 <div className="portfolio-map">
                     {
