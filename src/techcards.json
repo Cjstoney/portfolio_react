@@ -1,0 +1,32 @@
+[
+    {
+        "id":"tech1",
+        "technology":"HTML5",
+        "image":"images/technologies/iconfinder_HTML5_367627.png"
+    },
+    {
+        "id":"tech2",
+        "technology":"CSS3",
+        "image":"images/technologies/iconfinder_css3_4691518.png"
+    },
+    {
+        "id":"tech3",
+        "technology":"JavaScript",
+        "image":"images/technologies/javascriptlogo.png"
+    },
+    {
+        "id":"tech4",
+        "technology":"ReactJs",
+        "image":"images/technologies/iconfinder_react_4691292.png"
+    },
+    {
+        "id":"tech5",
+        "technology":"NodeJs",
+        "image":"images/technologies/iconfinder_nodejs-512_339733.png"
+    },
+    {
+        "id":"tech6",
+        "technology":"Jquery",
+        "image":"images/technologies/iconfinder_jquery_282807.png"
+    }
+]
