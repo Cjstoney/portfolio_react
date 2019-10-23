@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import techcards from '../techcards.json'
+import TechsComp from '../components/TechsComp'
 import "./about.css";
 
 const About = () => {
@@ -20,6 +21,21 @@ const About = () => {
                 working in web development, using my art background to influence my aesthetic choices and my
                 woodworking production knowledge to build websites from start to finish. </h2>
             </div>
+            <hr className='break'></hr>
+               <h2 className='tech-header'>Tecnology proficiencies</h2> 
+            <ul className='proficiencies'>
+                {
+                    techcards.map(data=>(
+
+                        <TechsComp 
+                        id={data.id}
+                        image={data.image}
+                        technology={data.technology}
+                        />
+                    ))
+
+                }
+            </ul>
             <hr className='break'></hr>
             <div className='forLink'>
                 <Link to='/Portfolio' className='route' >Projects &#8594;</Link>
