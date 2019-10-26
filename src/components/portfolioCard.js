@@ -12,10 +12,10 @@ const PortfolioCard = (props) => {
                 <p className="image_title">{props.name}</p>
                 <p className="project-description">{props.description}</p>
                 <a className="projects-a top-row" target="_blank" rel='noopener noreferrer' href={props.url}>
-                    <div className=' button sitebtn'>See the project</div>
+                    <div className=' button sitebtn'>See The Project</div>
                 </a>
                 <a className="projects-a top-row" target="_blank" rel='noopener noreferrer' href={props.ghurl}>
-                    <div className='button github'>See the code</div>
+                    <div className='button github'>See The Code</div>
                 </a>
             </div>
             <hr className='linebreak'></hr>
