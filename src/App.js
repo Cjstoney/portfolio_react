@@ -1,27 +1,15 @@
-import React from 'react';
-import Navbar from "./components/navbar";
+import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Home from './pages/home';
-import Portfolio from './pages/portfolio';
-import About from './pages/about';
-import Contact from './pages/contact'
+import WebHome from "./web/webHome";
 
 class App extends React.Component {
-  state = {
-  }
+  state = {};
 
   render() {
     return (
       <BrowserRouter>
-     
-        <Navbar />
-        <Route exact path='/' component={Home} />
-        <Route path='/portfolio' component={Portfolio}/>
-        <Route exact path='/' component={About} />
-        <Route path='/contact' component={Contact} />
-        
+        <Route path="/web" component={WebHome} />
       </BrowserRouter>
-
     );
   }
 }
