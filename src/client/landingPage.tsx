@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link, BrowserRouter, Route } from "react-router-dom";
+import WebHome from "./portfolioTypes/web/webHome";
 
 class LandingPage extends React.Component {
   state = {};
@@ -7,9 +8,9 @@ class LandingPage extends React.Component {
     return (
       <div>
         <BrowserRouter>
-          <Link to="/web">web</Link>
-          <Link to="/wood">wood</Link>
-          <Link to="/art">art</Link>
+          <Route path="/web" compontent={WebHome} />
+          {/* <Route path="/wood" component={WoodHome}> */}
+          {/* <Route path="/art" component={ArtHome}> */}
         </BrowserRouter>
       </div>
     );
