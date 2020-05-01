@@ -1,17 +1,12 @@
 import React from "react";
-import { Link, BrowserRouter, Route } from "react-router-dom";
-import WebHome from "./portfolioTypes/web/webHome";
+import { Link } from "react-router-dom";
 
 class LandingPage extends React.Component {
-  state = {};
+  // state = {};
   render() {
     return (
       <div>
-        <BrowserRouter>
-          <Route path="/web" compontent={WebHome} />
-          {/* <Route path="/wood" component={WoodHome}> */}
-          {/* <Route path="/art" component={ArtHome}> */}
-        </BrowserRouter>
+        <Link to="/webHome">web</Link>
       </div>
     );
   }

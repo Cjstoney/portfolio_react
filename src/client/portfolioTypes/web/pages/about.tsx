@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import techcards from "../../../../jsonInfo/techcards.json";
 import TechsComp from "../components/TechsComp";
 import "./about.css";
-import Navbar from "../components/navbar";
 
 const About = () => {
   return (

@@ -6,15 +6,15 @@ function Navbar() {
   return (
     <nav id="navbar">
       <ul className="navbar-nav grid-container">
-        <Link to="/web" className="nav-link">
+        <Link to="/webHome" className="nav-link">
           Home{" "}
         </Link>
 
-        <Link to="/portfolio" className="nav-link">
+        <Link to="/webPortfolio" className="nav-link">
           Portfolio
         </Link>
 
-        <Link className="nav-link" to="/contact">
+        <Link className="nav-link" to="/webContact">
           Contact
         </Link>
       </ul>
