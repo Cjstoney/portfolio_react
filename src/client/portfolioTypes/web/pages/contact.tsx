@@ -1,9 +1,11 @@
 import React from "react";
 import "./contact.css";
+import Navbar from "../components/navbar";
 
 const Contact = () => {
   return (
     <div className="contact-page">
+      <Navbar />
       <p className="section_header" id="contact">
         Contact
       </p>

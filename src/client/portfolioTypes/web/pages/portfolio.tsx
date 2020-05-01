@@ -2,10 +2,12 @@ import React from "react";
 import PortfolioCard from "../components/portfolioCard";
 import cards from "../../../../jsonInfo/cards.json";
 import "./portfolio.css";
+import Navbar from "../components/navbar";
 
 const Portfolio = () => {
   return (
     <div className="project-container container-fluid">
+      <Navbar />
       <div className="row">
         <div id="portfolio-content">
           <p className="section_header" id="portfolio">
