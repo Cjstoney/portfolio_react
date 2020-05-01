@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import WebHome from "./web/webHome";
-import LandingPage from "./landingPage";
+import WebHome from "./client/portfolioTypes/web/webHome";
+import LandingPage from "./client/landingPage";
 
 class App extends React.Component {
   state = {};
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Route exactPath="/" component={LandingPage} />
-        <Route path="/web" component={WebHome} />
+        <Route exactPath="/web" component={WebHome} />
       </BrowserRouter>
     );
   }

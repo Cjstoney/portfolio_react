@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioCard from "../components/portfolioCard";
-import cards from "../../jsonInfo/cards.json";
+import cards from "../../../../jsonInfo/cards.json";
 import "./portfolio.css";
 
 const Portfolio = () => {
