@@ -4,7 +4,6 @@ import WebHome from "./client/portfolioTypes/web/webHome";
 import LandingPage from "./client/landingPage";
 import Portfolio from "./client/portfolioTypes/web/pages/portfolio";
 import Contact from "./client/portfolioTypes/web/pages/contact";
-import { RouteDefs } from "./Routes";
 
 class App extends React.Component {
   state = {};
