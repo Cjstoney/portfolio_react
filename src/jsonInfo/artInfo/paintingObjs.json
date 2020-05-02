@@ -1,0 +1,82 @@
+[
+    {
+        "id": "paint_01",
+        "name": "Untitled",
+        "description": "Acrylic on Canvas",
+        "size": "36\"x 48\"",
+        "year": "2014",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_02",
+        "name": "The Riva's Bank Am a Mighty Fine Road",
+        "description": "Acylic on Canvas",
+        "size": "36\"x 48\"",
+        "year": "2014",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_03",
+        "name": "Disconnect I",
+        "description": "Acrylic on Canvas",
+        "size": "36\"x 52\"",
+        "year": "2014",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_04",
+        "name": "Disconnect II",
+        "description": "Acylic on Canvas",
+        "size": "39\"x 52\"",
+        "year": "2014",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_05",
+        "name": "A Winter's Break",
+        "description": "Acrylic on Canvas",
+        "size": "48\"x 52\"",
+        "year": "2015",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_06",
+        "name": "Untitled",
+        "description": "Acrylic on Canvas",
+        "size": "18\"x 36\"",
+        "year": "2015",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_07",
+        "name": "You Know Its Cold Up There (Diaspora Series)",
+        "description": "Acrylic on Canvas and Linen Blend",
+        "size": "24\"x 30\"",
+        "year": "2015",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_08",
+        "name": "Well You Are Just Going To Have To Try It Out (Diaspors Series)",
+        "description": "Acrylic on Canvas",
+        "size": "16\"x 20\"",
+        "year": "2015",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_09",
+        "name": "There Is A Lot To Do Up There (Diaspora Series)",
+        "description": "Acrylic on Muslin",
+        "size": "30\"x 40\"",
+        "year": "2015",
+        "imgURL": ""
+    },
+    {
+        "id": "paint_10",
+        "name": "You Know The Summers Are Beautiful (Diaspora Series)",
+        "description": "Acrylic on Muslin",
+        "size": "24\"x 30\"",
+        "year": "2015",
+        "imgURL": ""
+    }
+]
