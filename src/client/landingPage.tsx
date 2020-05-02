@@ -8,13 +8,20 @@ class LandingPage extends React.Component {
     return (
       <div className="landing-page-containter">
         <Link id="webHome" className="landingPage-link" to="/webHome">
-          Web
+          <div id="webHomeContainer" className="link-containter">
+            <span>Web</span>
+          </div>
         </Link>
         <Link id="woodHome" className="landingPage-link" to="/woodHome">
-          Wood
+          <div id="woodHomeContainer" className="link-containter">
+            <span>Wood</span>
+          </div>
         </Link>
+
         <Link id="artHome" className="landingPage-link" to="/artHome">
-          Art
+          <div id="artHomeContainer" className="link-containter">
+            <span>Art</span>
+          </div>
         </Link>
       </div>
     );

@@ -1,29 +1,73 @@
 .landing-page-containter {
   display: grid;
   grid-template-rows: repeat(3, [row-start] 1fr);
-  grid-template-columns: repeat(3, [row-start] 1fr);
-  height: 100vh;
-  align-items: center;
+  grid-template-columns: repeat(1, [row-start] 1fr);
+  row-gap: 10px;
+  height: 98vh;
+  margin: 1vh 0 1vh 0;
 }
 
 .landingPage-link {
-  grid-column: 2;
+  text-decoration: none;
+}
+
+.link-containter {
+  display: grid;
   text-align: center;
+  grid-template-rows: repeat(1, [row-start] 1fr);
+  height: 100%;
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  background-color: gray;
+  transition: all 0.5s;
+}
+
+#woodHomeContainer {
+  grid-row: 2;
+  background-image: url(./landingPageImages/woodworking.jpg);
+}
+
+#webHomeContainer {
+  grid-row: 1;
+  background-image: url(./landingPageImages/binaryImage.jpg);
+}
+
+#artHomeContainer {
+  grid-row: 3;
+  background-image: url(./landingPageImages/paintBrushes.jpg);
+}
+
+.landingPage-link:hover .link-containter,
+.landingPage-link:focus .link-containter {
+  transform: scale(1.1);
+}
+
+.link-containter::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.landingPage-link:hover .link-containter:before,
+.landingPage-link:focus .link-containter:before {
+  display: block;
+}
+
+span {
   font-size: 100px;
   font-weight: 900;
   text-decoration: none;
   color: white;
-  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  position: relative;
 }
 
-#woodHome {
-  grid-row: 1;
-}
-
-#webHome {
-  grid-row: 2;
-}
-
-#artHome {
-  grid-row: 3;
+.landingPage-link:hover span,
+.landingPage-link:focus span {
+  display: block;
 }
