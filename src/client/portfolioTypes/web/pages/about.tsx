@@ -31,7 +31,7 @@ const About = () => {
       </ul>
       <hr className="break"></hr>
       <div className="forLink">
-        <Link to="/Portfolio" className="route">
+        <Link to="/webPortfolio" className="route">
           Projects &#8594;
         </Link>
       </div>

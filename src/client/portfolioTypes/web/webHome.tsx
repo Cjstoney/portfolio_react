@@ -8,8 +8,8 @@ class WebHome extends React.Component {
   render() {
     return (
       <div>
-        <Home key="0" />
-        <About key="1" />
+        <Home />
+        <About />
       </div>
     );
   }
