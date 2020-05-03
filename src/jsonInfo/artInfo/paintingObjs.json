@@ -5,7 +5,7 @@
         "description": "Acrylic on Canvas",
         "size": "36\"x 48\"",
         "year": "2014",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/Untitled.png"
     },
     {
         "id": "paint_02",
@@ -13,7 +13,7 @@
         "description": "Acylic on Canvas",
         "size": "36\"x 48\"",
         "year": "2014",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/The Riva's Bank Am A MIghty Fine Road.png"
     },
     {
         "id": "paint_03",
@@ -21,7 +21,7 @@
         "description": "Acrylic on Canvas",
         "size": "36\"x 52\"",
         "year": "2014",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/The Disconnect I.png"
     },
     {
         "id": "paint_04",
@@ -29,7 +29,7 @@
         "description": "Acylic on Canvas",
         "size": "39\"x 52\"",
         "year": "2014",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/The Disconnect II.png"
     },
     {
         "id": "paint_05",
@@ -37,7 +37,7 @@
         "description": "Acrylic on Canvas",
         "size": "48\"x 52\"",
         "year": "2015",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/A winter's break.png"
     },
     {
         "id": "paint_06",
@@ -45,7 +45,7 @@
         "description": "Acrylic on Canvas",
         "size": "18\"x 36\"",
         "year": "2015",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/horizontal_monochrome.png"
     },
     {
         "id": "paint_07",
@@ -53,7 +53,7 @@
         "description": "Acrylic on Canvas and Linen Blend",
         "size": "24\"x 30\"",
         "year": "2015",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/you_know_its_cold_up_there.png"
     },
     {
         "id": "paint_08",
@@ -61,7 +61,7 @@
         "description": "Acrylic on Canvas",
         "size": "16\"x 20\"",
         "year": "2015",
-        "imgURL": ""
+        "imgURL": "/images/painting_images/well_you_are_just_going_to_have_to_try_it_out.png"
     },
     {
         "id": "paint_09",
