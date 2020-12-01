@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from "react";
+import About from "../../components/details/about/about";
 import "./home.css";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 6000);
+    setTimeout(() => setLoading(false), 1000);
   }, []);
 
   return (
     <>
       {loading === false ? (
-        <div id="landing-section">
-          {/* <figure id='thumbnail'>
-                <img id='woodsImage' alt='woods' src='../../images/woods2_copy.png'></img>
-            </figure> */}
-          <div className="text-container">
-            <p className="static-text">Hi, I'm Camerone</p>
+        <div>
+          <div id="landing-section">
+            <div className="text-container">
+              <p className="static-text">Hi, I'm Camerone</p>
+            </div>
           </div>
-          <div id="overlay"></div>
+          <About />
         </div>
       ) : (
         <div>
