@@ -1,7 +1,6 @@
 #landing-section {
   box-sizing: border-box;
   font-size: 100px;
-  height: 600px;
   overflow: hidden;
   margin: 0;
   padding: 0px;
@@ -20,20 +19,18 @@
   height: 920px;
   position: absolute;
   /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .text-container {
   z-index: 5;
   margin: 15% auto;
-  width: 1020px;
+  width: 100%;
   font-size: 50px;
   height: 80px;
   position: relative;
   max-width: 956px;
   box-sizing: border-box;
-  /* margin: 0 auto; */
-  /* padding: 32px; */
   text-align: center;
 }
 
@@ -41,7 +38,7 @@
   padding-right: 10px;
   padding-left: 10px;
   margin-right: 0px;
-  color: #fffcf2;
+  color: black;
 }
 #overlay {
   left: 0px;
@@ -52,15 +49,15 @@
   background: black;
   opacity: 0.3;
   /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,150), rgba(0,0,0,0));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 150), rgba(0, 0, 0, 0));
 }
 
 /* media queries */
 @media only screen and (max-width: 600px) {
-  #landing-section{
-    height:200px;
+  #landing-section {
+    height: 200px;
   }
- #landing-section div {
+  #landing-section div {
     text-align: center;
     box-sizing: border-box;
     max-width: 100%;
@@ -73,7 +70,7 @@
   #thumbnail > img {
     display: none;
   }
-  #landing-section>.text-container {
+  #landing-section > .text-container {
     z-index: 5;
     margin: 15% auto;
     width: 100%;
@@ -84,12 +81,12 @@
     box-sizing: border-box;
     /* margin: 0 auto; */
     /* padding: 32px; */
-    text-align: cente
-}
-.text-container>p.static-text {
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-right: 0px;
-  color: black;
-}
+    text-align: cente;
+  }
+  .text-container > p.static-text {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 0px;
+    color: black;
+  }
 }
