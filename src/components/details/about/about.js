@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import techcards from "../techcards.json";
-import TechsComp from "../components/TechsComp";
+import techCards from "../../../techcards.json";
+import TechsComp from "../components/techsComp";
 import "./about.css";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
       <hr className="break"></hr>
       <p className="tech-header">Tecnology proficiencies</p>
       <ul className="proficiencies">
-        {techcards.map(data => (
+        {techCards.map((data) => (
           <TechsComp
             id={data.id}
             image={data.image}
