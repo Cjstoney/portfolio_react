@@ -11,20 +11,16 @@ const Home = () => {
 
   return (
     <>
-      {loading === false ? (
-        <div>
-          <div id="landing-section">
-            <div className="text-container">
-              <p className="static-text">Hi, I'm Camerone</p>
-            </div>
+      <div>
+        <div id="landing-section">
+          <div className="text-container">
+            <p className="static-text">Hi, I'm Camerone</p>
           </div>
+        </div>
+        <div>
           <About />
         </div>
-      ) : (
-        <div>
-          <p>'Hello world'</p>
-        </div>
-      )}
+      </div>
     </>
   );
 };
