@@ -9,7 +9,6 @@
   text-align: center;
   height: 50px;
   margin-top: 0px;
-  /* background-color: black; */
 }
 
 .nav-link {
@@ -36,14 +35,13 @@
     text-align: center;
     height: 50px;
     margin-top: 0px;
-    background-color: rgba(49, 58, 62, 0.2);
     padding: 0px;
   }
 
   .grid-container > .nav-link {
     padding-top: 15px;
     text-decoration: none;
-    color: #eeeeee;
+    color: black;
     font-weight: bold;
   }
 }
