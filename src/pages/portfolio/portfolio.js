@@ -5,27 +5,23 @@ import "./portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="project-container container-fluid">
-      <div className="row">
-        <div id="portfolio-content">
-          <p className="section_header" id="portfolio">
-            Portfolio
-          </p>
-        </div>
-        <div className="portfolio-map">
-          {cards.map((data) => (
-            <PortfolioCard
-              id={data.id}
-              key={data.id}
-              name={data.projName}
-              image={data.image}
-              url={data.URL}
-              ghurl={data.ghURL}
-              description={data.description}
-            />
-          ))}
-        </div>
-      </div>
+    <div id="row">
+      <p className="section_header" id="portfolio">
+        Some of my work
+      </p>
+      <ul className="portfolio-map">
+        {cards.map((data) => (
+          <PortfolioCard
+            id={data.id}
+            key={data.id}
+            name={data.projName}
+            image={data.image}
+            url={data.URL}
+            ghurl={data.ghURL}
+            description={data.description}
+          />
+        ))}
+      </ul>
     </div>
   );
 };

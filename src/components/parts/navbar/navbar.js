@@ -1,14 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu } from "@material-ui/icons";
+import { Menu, MenuOpen } from "@material-ui/icons";
 import "./navbar.css";
 
 function Navbar() {
-  let showBar = true;
-  const openMenu = () => {
-    console.log("clicked");
-    showBar = !showBar;
-  };
+  let [showBar, setBar] = useState(false);
+
   return showBar ? (
     <nav id="navbar">
       <ul className="navbar-nav grid-container">
@@ -24,11 +21,18 @@ function Navbar() {
         <Link to="/contact" className="nav-link">
           Contact
         </Link>
+
+        <button className="nav-link" onClick={() => setBar((showBar = false))}>
+          <MenuOpen />
+        </button>
       </ul>
     </nav>
   ) : (
     <div className="grid-container">
-      <button onClick={openMenu()} className="hamburgerMenu">
+      <button
+        onClick={() => setBar((showBar = true))}
+        className="hamburgerMenu"
+      >
         <Menu />
       </button>
     </div>

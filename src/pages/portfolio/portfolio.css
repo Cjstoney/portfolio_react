@@ -1,16 +1,23 @@
-.portfolio-map{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap: 50px;
+#row {
+  grid-column-start: col1;
+  grid-column-end: span 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
 }
 
-#portfolio{
-    text-align: center;
-    font-size: 50px;
-    /* background: #fffcf2;
-    border-radius: 15px; */
+#portfolio {
+  grid-column-start: 2;
+  font-size: 6em;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 0;
+  color: white;
 }
-#portfolio-content{
-    color: black;
-    margin:auto;
+.portfolio-map {
+  grid-column-start: 1;
+  align-self: left;
 }

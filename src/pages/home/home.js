@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import About from "../../components/details/about/about";
 import Technologies from "../technologies/technologies";
+import Portfolio from "../portfolio/portfolio";
 import "./home.css";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         </div> */}
         <About className="aboutSection" />
         <Technologies />
+        <Portfolio />
       </div>
     </>
   );
