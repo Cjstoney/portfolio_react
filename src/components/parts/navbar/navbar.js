@@ -10,17 +10,17 @@ function Navbar() {
     <nav id="navbar">
       <ul className="navbar-nav grid-container">
         {/* <p className="initials">CS</p> */}
-        <Link to="/" className="nav-link">
+        <a href="#aboutSection" className="nav-link">
           Home{" "}
-        </Link>
+        </a>
 
-        <Link to="/portfolio" className="nav-link">
+        <a href="#portfolioSection" className="nav-link">
           Projects
-        </Link>
+        </a>
 
-        <Link to="/contact" className="nav-link">
+        <a href="#contactFooter" className="nav-link">
           Contact
-        </Link>
+        </a>
 
         <button className="nav-link" onClick={() => setBar((showBar = false))}>
           <MenuOpen />

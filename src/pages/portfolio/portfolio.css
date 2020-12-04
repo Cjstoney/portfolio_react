@@ -1,23 +1,37 @@
-#row {
+#portfolioSection {
   grid-column-start: col1;
   grid-column-end: span 3;
   grid-row-start: 4;
   grid-row-end: 4;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   max-width: 100%;
+  margin-top: 7em;
 }
 
 #portfolio {
-  grid-column-start: 2;
+  grid-column-start: 3;
   font-size: 6em;
   font-weight: 700;
   text-align: left;
   margin-top: 0;
   color: white;
+  margin-right: 15%;
 }
-.portfolio-map {
+#portfolio-map {
+  grid-row-start: 1;
+  grid-row-end: 1;
   grid-column-start: 1;
+  grid-column-end: span 2;
   align-self: left;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  list-style-type: none;
+
+  padding-left: 15%;
+  padding-right: 2%;
 }

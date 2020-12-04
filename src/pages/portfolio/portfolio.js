@@ -5,11 +5,11 @@ import "./portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div id="row">
+    <div id="portfolioSection">
       <p className="section_header" id="portfolio">
-        Some of my work
+        Projects I have been a part of
       </p>
-      <ul className="portfolio-map">
+      <ul id="portfolio-map">
         {cards.map((data) => (
           <PortfolioCard
             id={data.id}

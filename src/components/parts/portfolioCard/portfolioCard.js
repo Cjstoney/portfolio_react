@@ -3,7 +3,7 @@ import "./portfolioCard.css";
 
 const PortfolioCard = (props) => {
   return (
-    <li className="portfolio">
+    <li className="portfolio-card">
       <a
         className="projects-image top-row"
         target="_blank"
@@ -11,14 +11,6 @@ const PortfolioCard = (props) => {
         href={props.url}
       >
         <img className="image" src={props.image} alt={props.name} />
-      </a>
-      <a
-        className="projects-a top-row"
-        target="_blank"
-        rel="noopener noreferrer"
-        href={props.ghurl}
-      >
-        <div className="button github">Code</div>
       </a>
     </li>
   );

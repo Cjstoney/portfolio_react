@@ -6,6 +6,7 @@
 
   max-width: 100%;
   justify-items: center;
+  text-align: left;
 }
 #aboutSection {
   grid-column-start: ctrCol;
@@ -25,7 +26,6 @@
   max-width: 70%;
   color: #171f26;
   padding-top: 5%;
-  text-justify: auto;
 }
 
 .break {
@@ -37,7 +37,7 @@
   margin: 40px auto;
 }
 .route {
-  color: black;
+  color: #171f26;
   text-align: center;
   text-decoration: none;
   font-size: 40px;
@@ -54,7 +54,7 @@ Link.route:hover {
   padding-left: 0;
 }
 .tech-header {
-  color: black;
+  color: #171f26;
   text-align: center;
   text-decoration: none;
   font-size: 40px;
@@ -62,7 +62,7 @@ Link.route:hover {
 
 @media only screen and (max-width: 600px) {
   #about {
-    color: black;
+    color: #171f26;
     text-align: center;
     font-size: 50px;
   }
@@ -86,7 +86,7 @@ Link.route:hover {
     margin: 40px auto;
   }
   .route {
-    color: black;
+    color: #171f26;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -102,7 +102,7 @@ Link.route:hover {
     padding: 50px 0px;
   }
   .tech-header {
-    color: black;
+    color: #171f26;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
