@@ -13,6 +13,7 @@
   grid-column-end: span 2;
   grid-row-start: 2;
   grid-row-end: 2;
+  padding-right: 10%;
 }
 
 .introduction {
@@ -23,7 +24,7 @@
   margin-top: 0px;
   font-size: 2.8em;
   font-weight: 700;
-  max-width: 70%;
+  max-width: 100%;
   color: #171f26;
   padding-top: 5%;
 }
