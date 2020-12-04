@@ -15,15 +15,29 @@
   padding: 0px;
 }
 
+.hamburgerMenu {
+  grid-column-start: 3;
+  align-self: center;
+  margin-right: 10%;
+  margin-left: 70%;
+}
+
+.initials {
+  grid-column-start: 1;
+  margin-right: 60%;
+  align-self: start;
+  font-size: 1.5em;
+  font-weight: 900;
+}
 .nav-link {
   padding-top: 15px;
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .nav-link:hover {
-  color: rgb(122, 122, 122);
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

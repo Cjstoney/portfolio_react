@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 50px;
-  height: calc(50vh - 10px);
+
   max-width: 100%;
   justify-items: center;
 }
@@ -14,9 +14,14 @@
   grid-row-end: 2;
 }
 
+.introduction {
+  color: white;
+  font-size: 2em;
+}
 .bio {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 2.8em;
+  font-weight: 700;
   max-width: 70%;
   color: #171f26;
   padding-top: 5%;
@@ -41,12 +46,12 @@ Link.route:hover {
   color: rgb(122, 122, 122);
 }
 .proficiencies {
-  width: 100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5%;
-  align-self: start;
+  grid-template-rows: repeat(3, 1fr);
   list-style-type: none;
+  padding-left: 0;
 }
 .tech-header {
   color: black;

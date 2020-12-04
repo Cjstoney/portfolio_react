@@ -12,11 +12,11 @@ const Home = () => {
   return (
     <>
       <div className="homePage">
-        <div id="landing-section">
+        {/* <div id="landing-section">
           <div className="text-container">
-            <p className="static-text">Hi, I'm Camerone</p>
+            <p className="static-text">I'm Camerone</p>
           </div>
-        </div>
+        </div> */}
         <About className="aboutSection" />
         <Technologies />
       </div>

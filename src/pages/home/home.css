@@ -3,7 +3,7 @@
   opacity: 0;
   transition: 3s opacity;
   grid-template-columns: [col1] 40% [ctrCol] 20% [col3] 40%;
-  grid-template-rows: repeat(5, 50%);
+  grid-template-rows: repeat(5, auto);
 }
 #landing-section {
   grid-column-start: col1;
@@ -19,7 +19,8 @@
 .text-container {
   margin: 15% auto;
   width: 100%;
-  font-size: 50px;
+  font-size: 3em;
+  font-weight: 700;
   position: relative;
   max-width: 80%;
   box-sizing: border-box;
