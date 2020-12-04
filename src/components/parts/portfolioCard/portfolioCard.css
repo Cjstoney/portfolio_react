@@ -1,0 +1,46 @@
+.image {
+  width: 75%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-card {
+  max-width: 100%;
+  overflow: hidden;
+  justify-self: center;
+  align-self: auto;
+  margin-bottom: 12%;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-size-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: auto;
+    border-bottom: solid 1px #e0e0e0;
+  }
+  .portfolio {
+    text-align: center;
+  }
+  .button {
+    width: 200px;
+    margin: 5px auto;
+    padding: 10px;
+    /* display:inline-block; */
+    box-sizing: border-box;
+    color: #474747;
+    /* background:red; */
+    text-align: center;
+    border: solid 1px #474747;
+  }
+}
