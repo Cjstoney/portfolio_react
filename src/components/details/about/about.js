@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import techCards from "../../../techcards.json";
-import TechsComp from "../../../components/parts/technologies/techsComp";
+
 import "./about.css";
 
 const About = () => {
   return (
-    <div>
+    <div id="aboutSection">
       <div className="about-content">
         <p className="bio bio-text" id="cs-text">
           I am Camerone Stoney. I moved from the San Francisco Bay Area to
@@ -17,24 +15,6 @@ const About = () => {
           to influence my aesthetic choices and my woodworking production
           knowledge to build websites from start to finish.{" "}
         </p>
-      </div>
-      <hr className="break"></hr>
-      <p className="tech-header">Technology proficiencies</p>
-      <ul className="proficiencies">
-        {techCards.map((data) => (
-          <TechsComp
-            id={data.id}
-            image={data.image}
-            technology={data.technology}
-            key={data.id}
-          />
-        ))}
-      </ul>
-      <hr className="break"></hr>
-      <div className="forLink">
-        <Link to="/Portfolio" className="route">
-          Projects &#8594;
-        </Link>
       </div>
     </div>
   );

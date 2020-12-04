@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import About from "../../components/details/about/about";
+import Technologies from "../technologies/technologies";
 import "./home.css";
 
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
             <p className="static-text">Hi, I'm Camerone</p>
           </div>
         </div>
-        <About />
+        <About className="aboutSection" />
+        <Technologies />
       </div>
     </>
   );

@@ -1,5 +1,8 @@
 #navbar {
   position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: none;
 }
 
 .grid-container {
@@ -9,6 +12,7 @@
   text-align: center;
   height: 50px;
   margin-top: 0px;
+  padding: 0px;
 }
 
 .nav-link {

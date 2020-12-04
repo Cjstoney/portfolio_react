@@ -1,0 +1,6 @@
+#technologySection {
+  grid-column-start: col1;
+  grid-column-end: span 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}

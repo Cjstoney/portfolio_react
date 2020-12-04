@@ -1,36 +1,30 @@
-#about {
-  color: black;
-  text-align: center;
-  font-size: 50px;
-}
-
 .about-content {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 50px;
   height: calc(50vh - 10px);
-  width: 700px;
+  max-width: 100%;
   justify-items: center;
 }
-
-.about-img {
-  object-fit: cover;
-  overflow: hidden;
-  width: 100%;
-  max-height: 100%;
+#aboutSection {
+  grid-column-start: ctrCol;
+  grid-column-end: span 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .bio {
   margin-top: 0px;
   font-size: 20px;
-  background: #fffcf2;
-  padding: 0px;
+  max-width: 70%;
+  color: #171f26;
+  padding-top: 5%;
   text-justify: auto;
 }
 
 .break {
-  margin: 10px 350px;
+  margin: 10px 25%;
 }
 
 .forLink {
@@ -47,11 +41,12 @@ Link.route:hover {
   color: rgb(122, 122, 122);
 }
 .proficiencies {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 50px 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+  align-self: start;
+  list-style-type: none;
 }
 .tech-header {
   color: black;
