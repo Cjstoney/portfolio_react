@@ -2,14 +2,8 @@
   display: grid;
   opacity: 0;
   transition: 3s opacity;
-  grid-template-columns: [col1] 40% [ctrCol] 20% [col3] 40%;
+  grid-template-columns: [col1] 20% [col3] 20% [ctrCol] 20% [col3] 20% [col4] 20%;
   grid-template-rows: repeat(5, auto);
-}
-#landing-section {
-  grid-column-start: col1;
-  grid-column-end: col3;
-  grid-row-start: 1;
-  grid-row-end: 1;
 }
 
 .fade-in {
@@ -19,7 +13,6 @@
 .text-container {
   margin: 15% auto;
   width: 100%;
-  font-size: 3em;
   font-weight: 700;
   position: relative;
   max-width: 80%;

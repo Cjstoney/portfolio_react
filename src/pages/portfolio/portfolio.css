@@ -1,20 +1,21 @@
 #portfolioSection {
-  grid-column-start: col1;
-  grid-column-end: span 3;
+  grid-column-start: 1;
+  grid-column-end: span 5;
   grid-row-start: 4;
   grid-row-end: 4;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   max-width: 100%;
   margin-top: 7em;
 }
 
 #portfolio {
-  grid-column-start: 3;
-  font-size: 6em;
-  font-weight: 700;
+  grid-column-start: 4;
+  padding-top: 25%;
+  font-size: 2.8em;
+  font-weight: 600;
   text-align: left;
   margin-top: 0;
   color: white;
@@ -24,7 +25,7 @@
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 1;
-  grid-column-end: span 2;
+  grid-column-end: span 3;
   align-self: left;
 
   display: grid;

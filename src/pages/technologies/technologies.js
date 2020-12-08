@@ -7,7 +7,7 @@ export const Technologies = () => {
   return (
     <div id="technologySection">
       <p className="tech-header">
-        Tech <br /> I am <br /> enjoying
+        Tech I am <br /> enjoying
       </p>
       <ul className="proficiencies">
         {techCards.map((data) => (

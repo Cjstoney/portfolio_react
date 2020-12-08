@@ -9,21 +9,25 @@
   text-align: left;
 }
 #aboutSection {
-  grid-column-start: ctrCol;
-  grid-column-end: span 2;
+  grid-column-start: 2;
+  grid-column-end: span 3;
   grid-row-start: 2;
   grid-row-end: 2;
   padding-right: 10%;
 }
 
+.name {
+  color: #ffa811;
+}
 .introduction {
   color: white;
-  font-size: 2em;
+  font-size: 2.5em;
 }
+
 .bio {
   margin-top: 0px;
-  font-size: 2.8em;
-  font-weight: 700;
+  font-size: 1.25em;
+  font-weight: 500;
   max-width: 100%;
   color: #171f26;
   padding-top: 5%;
