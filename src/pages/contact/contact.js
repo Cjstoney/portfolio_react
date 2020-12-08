@@ -12,7 +12,11 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn{" "}
+            <img
+              className="contactImage"
+              alt="LinkedIn"
+              src="images/LI-In-Bug.png"
+            />
           </a>
         </li>
         <li className="footerListItem">
@@ -21,7 +25,11 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github{" "}
+            <img
+              className="contactImage"
+              alt="Github"
+              src="images/GitHub-Mark-64px.png"
+            />
           </a>
         </li>
         <li className="footerListItem">
@@ -30,7 +38,11 @@ const Contact = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            <img
+              className="contactImage"
+              alt="Resume"
+              src="images/iconfinder_file-pdf_383140.png"
+            />
           </a>
         </li>
       </ul>

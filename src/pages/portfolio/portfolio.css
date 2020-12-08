@@ -1,30 +1,43 @@
 #portfolioSection {
-  grid-column-start: col1;
-  grid-column-end: span 3;
+  grid-column-start: 1;
+  grid-column-end: span 5;
   grid-row-start: 4;
   grid-row-end: 4;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   max-width: 100%;
   margin-top: 7em;
+  background-color: #979ed1;
+  border-radius: 10px 0 0 10px;
+  margin-left: 10%;
+  padding-top: 2%;
 }
-
+#portfolioVerb {
+  color: #ffbe4f;
+  width: 100%;
+  font-weight: 600;
+}
+#portfolioVerb:after {
+  content: "made.";
+  animation: slide 15s ease infinite;
+}
 #portfolio {
-  grid-column-start: 3;
-  font-size: 6em;
-  font-weight: 700;
+  grid-column-start: 4;
+  padding-top: 25%;
+  font-size: 2.8em;
+  font-weight: 500;
   text-align: left;
   margin-top: 0;
-  color: white;
+  color: black;
   margin-right: 15%;
 }
 #portfolio-map {
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 1;
-  grid-column-end: span 2;
+  grid-column-end: span 3;
   align-self: left;
 
   display: grid;
@@ -34,4 +47,15 @@
 
   padding-left: 15%;
   padding-right: 2%;
+}
+@keyframes slide {
+  0% {
+    content: "made.";
+  }
+  33% {
+    content: "been a part of.";
+  }
+  66% {
+    content: "helped build.";
+  }
 }

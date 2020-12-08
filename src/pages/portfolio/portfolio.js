@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div id="portfolioSection">
       <p className="section_header" id="portfolio">
-        Projects I have been a part of
+        Projects I have <span id="portfolioVerb"></span>
       </p>
       <ul id="portfolio-map">
         {cards.map((data) => (

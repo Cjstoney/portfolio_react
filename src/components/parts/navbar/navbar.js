@@ -8,7 +8,6 @@ function Navbar() {
   return showBar ? (
     <nav id="navbar">
       <ul className="navbar-nav grid-container">
-        {/* <p className="initials">CS</p> */}
         <a href="#aboutSection" className="nav-link">
           Home{" "}
         </a>
