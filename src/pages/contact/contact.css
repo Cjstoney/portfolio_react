@@ -2,7 +2,7 @@
   max-width: 100%;
   grid-row-start: 5;
   grid-column-start: 1;
-  grid-column-end: span 3;
+  grid-column-end: span 5;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -20,12 +20,12 @@
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
-
+  /* 
   border-top: solid 2px;
   border-right: solid 2px;
-  border-bottom: solid 2px;
+  border-bottom: solid 2px; */
   border-radius: 0 10px 10px 0;
-  background-color: #ffa811;
+  background-color: #979ed1;
 
   padding-top: 3%;
   padding-bottom: 3%;
@@ -54,10 +54,10 @@
   margin-right: 15%;
 }
 .topOfPage svg {
-  color: white;
+  color: #171f26;
 }
 .topOfPage svg:hover {
-  color: #171f26;
+  color: #ffa811;
 }
 
 @media only screen and (max-width: 600px) {

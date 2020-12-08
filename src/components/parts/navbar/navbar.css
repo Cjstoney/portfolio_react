@@ -41,10 +41,10 @@ button {
 }
 
 .nav-link:hover {
-  color: white;
+  color: #ffa811;
 }
 button:hover {
-  color: white;
+  color: #ffa811;
 }
 
 @media only screen and (max-width: 600px) {
