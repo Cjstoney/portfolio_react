@@ -19,7 +19,14 @@
   margin-top: 0;
   color: white;
 }
+
 .proficiencies {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  list-style-type: none;
   align-self: left;
+  padding-left: 0;
   padding-right: 15%;
 }
