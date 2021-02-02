@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Portfolio from "./pages/portfolio/portfolio";
-import Contact from "./pages/contact/contact";
+import Portfolio from "./components/sections/portfolio/portfolio";
+import Contact from "./components/sections/contact/contact";
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/parts/navbar/navbar";
 
