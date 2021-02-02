@@ -1,6 +1,6 @@
 import React from "react";
-import techCards from "../../techcards.json";
-import TechsComp from "../../components/parts/technologies/techsComp";
+import techCards from "../../../techcards.json";
+import TechsComp from "../../parts/technologies/techsComp";
 import "./technologies.css";
 
 export const Technologies = () => {
