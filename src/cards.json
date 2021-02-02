@@ -52,7 +52,7 @@
     "projName": "VS Code Shortcut Helper",
     "URL": "https://fervent-goodall-9e056d.netlify.app/",
     "ghURL": "https://github.com/Cjstoney/shortcuts",
-    "image": "images/shortcuts.png",
+    "image": "images/shortcut.png",
     "description": "A quick reference guide for anyone using VS Code created using Angular, and Typescript."
   }
 ]
