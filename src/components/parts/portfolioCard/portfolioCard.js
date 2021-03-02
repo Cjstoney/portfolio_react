@@ -10,7 +10,7 @@ const PortfolioCard = (props) => {
         rel="noopener noreferrer"
         href={props.url}
       >
-        <img className="image" src={props.image} alt={props.name} />
+        <img className="image" src={props.mockup} alt={props.name} />
       </a>
     </li>
   );

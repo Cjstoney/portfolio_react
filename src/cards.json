@@ -5,6 +5,7 @@
     "URL": "https://volksrat71.github.io/roadtripperzzz/",
     "ghURL": "https://github.com/VolksRat71/roadtripperzzz",
     "image": "images/roadtriperzzz.png",
+    "mockup": "images/roadtriperzzzMockup.png",
     "description": "Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz gives them a destination, directions and a weather report for the destination."
   },
   {
@@ -13,6 +14,7 @@
     "URL": "https://cjstoney.github.io/clickyGame/",
     "ghURL": "https://github.com/Cjstoney/clickyGame",
     "image": "images/ClickyGame.png",
+    "mockup": "images/clickyMockup.png",
     "description": "Clicky Game is a React based game that lets the user click on as many images as possible, without clicking the same image twice."
   },
   {
@@ -21,6 +23,7 @@
     "URL": "https://github.com/Cjstoney/Camper",
     "ghURL": "https://github.com/Cjstoney/Camper",
     "image": "images/Camper.jpg",
+    "mockup": "images/camperMockup.png",
     "description": "Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in. Students who do decide to login in have the added option of saving resources in order to be able to come back to them in the future with added ease."
   },
   {
@@ -29,6 +32,7 @@
     "URL": "https://cjstoney.github.io/crystal_collector_game/",
     "ghURL": "https://github.com/Cjstoney/crystal_collector_game",
     "image": "images/crystal_collectors.png",
+    "mockup": "images/crystalMockup.png",
     "description": "Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score."
   },
   {
@@ -37,6 +41,7 @@
     "URL": "https://cjstoney.github.io/phychic_letter_game/",
     "ghURL": "https://github.com/Cjstoney/phychic_letter_game",
     "image": "images/psych_game.png",
+    "mockup": "images/psychicMockup.png",
     "description": "Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the secret letter."
   },
   {
@@ -45,6 +50,7 @@
     "URL": "https://www.just-networking.com/",
     "ghURL": "",
     "image": "images/just-networking-zoomed-in.png",
+    "mockup": "images/justNetworkingMockup.png",
     "description": "A Hardware VPN With Infinite Possibilities to Extend Your Production Workflow."
   },
   {
@@ -53,6 +59,7 @@
     "URL": "https://fervent-goodall-9e056d.netlify.app/",
     "ghURL": "https://github.com/Cjstoney/shortcuts",
     "image": "images/shortcut.png",
+    "mockup": "images/shortcutMockup.png",
     "description": "A quick reference guide for anyone using VS Code created using Angular, and Typescript."
   }
 ]
