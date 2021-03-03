@@ -10,7 +10,7 @@ const Portfolio = () => {
         Projects I have <span id="portfolioVerb"></span>
       </p>
       <ul id="portfolio-map">
-        {cards.map((data) => (
+        {cards.reverse().map((data) => (
           <PortfolioCard
             id={data.id}
             key={data.id}

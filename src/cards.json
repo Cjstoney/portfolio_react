@@ -137,7 +137,7 @@
       },
       {
         "technology": "Typescript",
-        "techImage": "images/technologies"
+        "techImage": "images/technologies/icons8-typescript-50.png"
       },
       {
         "technology": "NodeJs",
@@ -180,7 +180,7 @@
       },
       {
         "technology": "Typescript",
-        "techImage": "images/technologies"
+        "techImage": "images/technologies/icons8-typescript-50.png"
       }
     ]
   }
