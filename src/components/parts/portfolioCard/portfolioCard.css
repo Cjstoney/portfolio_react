@@ -1,0 +1,36 @@
+.portfolio-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: calc(100vh / 2);
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 5%;
+}
+.project-link {
+  /* display: block; */
+  padding: 1em;
+  grid-area: 1/1/2/4;
+  margin-left: 10%;
+  margin-top: 25px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  text-decoration: none;
+}
+.image {
+  max-height: 20rem;
+}
+.backgroundDiv {
+  grid-area: 1/1/2/4;
+  width: 50%;
+  height: 24rem;
+  background-color: red;
+  box-shadow: 0 0 10px 10px red;
+}
+.description {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  color: black;
+}
