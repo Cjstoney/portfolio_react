@@ -15,6 +15,19 @@ const PortfolioCard = (props) => {
         <div className="description">
           <h1>{props.name}</h1>
           <p className="applicationDescription">{props.description}</p>
+          <ul className="technologies">
+            {props.technologies.map((tech) => (
+              <li
+                className={`${props.name}-${tech.technology} technologyListItem`}
+              >
+                <img
+                  className="techlogo"
+                  src={tech.techImage}
+                  alt={`${tech.technology} icon`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
       </a>
     </li>

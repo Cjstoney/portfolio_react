@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <div className="homePage">
         <About className="aboutSection" />
-        <Technologies />
+        {/* <Technologies /> */}
         <Portfolio />
         <Contact />
       </div>

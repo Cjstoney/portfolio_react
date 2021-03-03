@@ -20,6 +20,7 @@ const Portfolio = () => {
             url={data.URL}
             ghurl={data.ghURL}
             description={data.description}
+            technologies={data.technologies}
           />
         ))}
       </ul>
