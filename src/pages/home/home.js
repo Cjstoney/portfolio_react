@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import About from "../../components/sections/about/about";
-import Portfolio from "../../components/sections/portfolio/portfolio";
 import Contact from "../../components/sections/contact/contact";
 import "./home.css";
+import PortfolioCard from "../../components/parts/portfolioCard/portfolioCard";
 
 const Home = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="homePage">
       <About className="aboutSection" />
-      <Portfolio />
+      <PortfolioCard />
       {/* <Contact /> */}
     </div>
   );
