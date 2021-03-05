@@ -1,7 +1,7 @@
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto auto;
   max-height: 100%;
 }
 
@@ -12,7 +12,7 @@
   grid-column: 2;
   grid-row: 1;
   justify-self: self-start;
-  z-index: 1;
+  z-index: 2;
 }
 svg {
   grid-column: 1;
@@ -20,13 +20,37 @@ svg {
   grid-row: 1;
   justify-self: self-start;
   align-self: center;
-  z-index: -1;
-  background-color: #9da7c1;
+  z-index: 1;
 }
 
 .bio {
   grid-column-start: 1;
-  grid-column-end: span 2;
+  grid-column-end: span 3;
   grid-row: 2;
-  margin-left: 25%;
+  font-size: 1.5em;
+  width: inherit;
+  color: white;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: #406269;
+  background: linear-gradient(#2e5258 60%, #9da7c1);
+}
+
+.learnMoreBtn {
+  grid-column: 3;
+  grid-row: 3;
+  border: none;
+  background-color: #406269;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  width: 20rem;
+  border-radius: 5px;
+}
+.learnMoreBtn:hover {
+  color: black;
+  background-color: #718596;
 }
