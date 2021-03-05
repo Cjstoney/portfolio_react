@@ -54,3 +54,20 @@ svg {
   color: black;
   background-color: #718596;
 }
+
+.longBio {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row: 2;
+  font-size: 1.5em;
+  width: inherit;
+  color: white;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: #406269;
+  background: linear-gradient(#2e5258 60%, #9da7c1);
+  transition: ease 2s ease-out 0.5s;
+}
