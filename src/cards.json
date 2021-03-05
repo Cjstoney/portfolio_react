@@ -52,7 +52,7 @@
     "ghURL": "https://github.com/Cjstoney/Camper",
     "image": "images/Camper.jpg",
     "mockup": "images/camperMockup.png",
-    "description": "Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in. Students who do decide to login in have the added option of saving resources in order to be able to come back to them in the future with added ease.",
+    "description": "Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in.",
     "technologies": [
       {
         "technology": "HTML5",
