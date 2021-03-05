@@ -9,7 +9,7 @@ import Navbar from "./components/parts/navbar/navbar";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Navbar />
+    {/* <Navbar /> */}
     <Route exact path="/" component={App} />
     <Route path="/portfolio" component={Portfolio} />
     <Route path="/contact" component={Contact} />
