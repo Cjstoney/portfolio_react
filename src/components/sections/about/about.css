@@ -69,5 +69,5 @@ svg {
   padding-bottom: 5%;
   background-color: #406269;
   background: linear-gradient(#2e5258 60%, #9da7c1);
-  transition: ease 2s ease-out 0.5s;
+  transition: all 5s ease;
 }
