@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Waves from "../../parts/waves";
+import Contact from "../contact/contact";
 import "./about.css";
 
 const About = () => {
@@ -30,6 +31,7 @@ const About = () => {
       <p id="bioId" className="bio ">{`${shortBio} ${
         !!moreInfo ? extraInfo : ""
       }`}</p>
+      <Contact />
       <button className="learnMoreBtn" onClick={() => addClass()}>
         {`Want to know ${!!moreInfo ? "less" : "more"}?`}
       </button>

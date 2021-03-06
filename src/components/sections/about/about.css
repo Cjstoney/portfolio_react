@@ -40,15 +40,16 @@ svg {
 }
 
 .learnMoreBtn {
-  grid-column: 3;
+  grid-column: 1;
   grid-row: 3;
-  border: none;
   background-color: #406269;
+  border: none;
+  border-radius: 5px;
   color: white;
   font-size: 1.3rem;
+  justify-self: end;
   padding: 1.5rem;
   width: 20rem;
-  border-radius: 5px;
 }
 .learnMoreBtn:hover {
   color: black;
