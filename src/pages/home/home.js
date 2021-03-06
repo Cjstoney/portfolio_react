@@ -14,7 +14,6 @@ const Home = () => {
     <div className="homePage">
       <About className="aboutSection" />
       <PortfolioCard />
-      {/* <Contact /> */}
     </div>
   );
 };
