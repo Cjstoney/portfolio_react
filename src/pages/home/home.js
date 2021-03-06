@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import About from "../../components/sections/about/about";
-import Contact from "../../components/sections/contact/contact";
 import "./home.css";
 import PortfolioCard from "../../components/parts/portfolioCard/portfolioCard";
 
