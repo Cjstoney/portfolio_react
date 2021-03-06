@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
-import About from "../../components/details/about/about";
-import Technologies from "../technologies/technologies";
-import Portfolio from "../portfolio/portfolio";
-import Contact from "../contact/contact";
+import About from "../../components/sections/about/about";
 import "./home.css";
+import PortfolioCard from "../../components/parts/portfolioCard/portfolioCard";
 
 const Home = () => {
   useEffect(() => {
@@ -12,14 +10,10 @@ const Home = () => {
   }, []);
 
   return (
-    <>
-      <div className="homePage">
-        <About className="aboutSection" />
-        <Technologies />
-        <Portfolio />
-        <Contact />
-      </div>
-    </>
+    <div className="homePage">
+      <About className="aboutSection" />
+      <PortfolioCard />
+    </div>
   );
 };
 

@@ -5,7 +5,22 @@
     "URL": "https://volksrat71.github.io/roadtripperzzz/",
     "ghURL": "https://github.com/VolksRat71/roadtripperzzz",
     "image": "images/roadtriperzzz.png",
-    "description": "Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz gives them a destination, directions and a weather report for the destination."
+    "mockup": "images/roadtriperzzzMockup.png",
+    "description": "Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz gives them a destination, directions and a weather report for the destination.",
+    "technologies": [
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "JavaScript",
+        "techImage": "images/technologies/javascriptlogo.png"
+      }
+    ]
   },
   {
     "id": "2",
@@ -13,7 +28,22 @@
     "URL": "https://cjstoney.github.io/clickyGame/",
     "ghURL": "https://github.com/Cjstoney/clickyGame",
     "image": "images/ClickyGame.png",
-    "description": "Clicky Game is a React based game that lets the user click on as many images as possible, without clicking the same image twice."
+    "mockup": "images/clickyMockup.png",
+    "description": "Clicky Game is a React based game that lets the user click on as many images as possible, without clicking the same image twice.",
+    "technologies": [
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "JavaScript",
+        "techImage": "images/technologies/javascriptlogo.png"
+      }
+    ]
   },
   {
     "id": "3",
@@ -21,7 +51,22 @@
     "URL": "https://github.com/Cjstoney/Camper",
     "ghURL": "https://github.com/Cjstoney/Camper",
     "image": "images/Camper.jpg",
-    "description": "Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in. Students who do decide to login in have the added option of saving resources in order to be able to come back to them in the future with added ease."
+    "mockup": "images/camperMockup.png",
+    "description": "Camper was created for Web Development Bootcamp students who want a curated list of resources that are actually useful and have been vetted by students. Camper allows students to search and browse resources without being registered or logged in.",
+    "technologies": [
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "JavaScript",
+        "techImage": "images/technologies/javascriptlogo.png"
+      }
+    ]
   },
   {
     "id": "4",
@@ -29,7 +74,22 @@
     "URL": "https://cjstoney.github.io/crystal_collector_game/",
     "ghURL": "https://github.com/Cjstoney/crystal_collector_game",
     "image": "images/crystal_collectors.png",
-    "description": "Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score."
+    "mockup": "images/crystalMockup.png",
+    "description": "Crystal Collector is a math based game that attempts to have the user add up enough points to match the target score.",
+    "technologies": [
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "JavaScript",
+        "techImage": "images/technologies/javascriptlogo.png"
+      }
+    ]
   },
   {
     "id": "5",
@@ -37,7 +97,22 @@
     "URL": "https://cjstoney.github.io/phychic_letter_game/",
     "ghURL": "https://github.com/Cjstoney/phychic_letter_game",
     "image": "images/psych_game.png",
-    "description": "Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the secret letter."
+    "mockup": "images/psychicMockup.png",
+    "description": "Psychic Guessing Game is a game that lets the press keyboard keys in an attempt to match the secret letter.",
+    "technologies": [
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "JavaScript",
+        "techImage": "images/technologies/javascriptlogo.png"
+      }
+    ]
   },
   {
     "id": "6",
@@ -45,6 +120,68 @@
     "URL": "https://www.just-networking.com/",
     "ghURL": "",
     "image": "images/just-networking-zoomed-in.png",
-    "description": "A Hardware VPN With Infinite Possibilities to Extend Your Production Workflow."
+    "mockup": "images/justNetworkingMockup.png",
+    "description": "A Hardware VPN With Infinite Possibilities to Extend Your Production Workflow.",
+    "technologies": [
+      {
+        "technology": "Angular",
+        "techImage": "images/technologies/iconfinder_21_Angular_logo_logos_4373871.png"
+      },
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "Typescript",
+        "techImage": "images/technologies/icons8-typescript-50.png"
+      },
+      {
+        "technology": "NodeJs",
+        "techImage": "images/technologies/iconfinder_nodejs-512_339733.png"
+      },
+      {
+        "technology": "GraphQL",
+        "techImage": "images/technologies/iconfinder_graphql_4691403.png"
+      },
+      {
+        "technology": "NestJS",
+        "techImage": "images/technologies/logo-small.ede75a6b.png"
+      },
+      {
+        "technology": "MongoDb",
+        "techImage": "images/technologies/iconfinder_mongodb_4691284.png"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "projName": "VS Code Shortcut Helper",
+    "URL": "https://fervent-goodall-9e056d.netlify.app/",
+    "ghURL": "https://github.com/Cjstoney/shortcuts",
+    "image": "images/shortcut.png",
+    "mockup": "images/shortcutsMockup.png",
+    "description": "A quick reference guide for anyone using VS Code created using Angular, and Typescript.",
+    "technologies": [
+      {
+        "technology": "Angular",
+        "techImage": "images/technologies/iconfinder_21_Angular_logo_logos_4373871.png"
+      },
+      {
+        "technology": "HTML5",
+        "techImage": "images/technologies/iconfinder_HTML5_367627.png"
+      },
+      {
+        "technology": "CSS3",
+        "techImage": "images/technologies/iconfinder_css3_4691518.png"
+      },
+      {
+        "technology": "Typescript",
+        "techImage": "images/technologies/icons8-typescript-50.png"
+      }
+    ]
   }
 ]

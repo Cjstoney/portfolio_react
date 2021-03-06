@@ -1,0 +1,21 @@
+.contactImage {
+  height: 2rem;
+}
+
+.footerList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column: 3;
+  grid-row: 3;
+  margin-right: 2rem;
+}
+
+.footerListItem {
+  list-style-type: none;
+  justify-self: start;
+}
+.stick {
+  position: fixed;
+  top: 0;
+}
