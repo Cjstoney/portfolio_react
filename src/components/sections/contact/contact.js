@@ -30,7 +30,7 @@ const Contact = () => {
           />
         </a>
       </li>
-      {/* <li className="footerListItem">
+      <li className="footerListItem">
         <a
           href="../assets/Camerone_Stoney_Resume.pdf"
           target="_blank"
@@ -42,7 +42,7 @@ const Contact = () => {
             src="images/iconfinder_file-pdf_383140.png"
           />
         </a>
-      </li> */}
+      </li>
     </ul>
   );
 };

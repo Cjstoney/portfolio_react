@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="homePage">
       <About className="aboutSection" />
-      <PortfolioCard />
+      {/* <PortfolioCard /> */}
     </div>
   );
 };
