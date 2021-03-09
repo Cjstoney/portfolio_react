@@ -5,9 +5,9 @@ import cards from "../../../cards.json";
 const PortfolioCard = () => {
   return (
     <ul className="listContainer">
-      {cards.reverse().map((card) => {
+      {cards.reverse().map((card, index) => {
         return (
-          <li className="portfolio-card">
+          <li className="portfolio-card" key={index}>
             <div className="backgroundDiv"></div>
             <a
               className="project-link"
@@ -15,14 +15,15 @@ const PortfolioCard = () => {
               rel="noopener noreferrer"
               href={card.url}
             >
-              <img className="image" src={card.mockup} alt={card.name} />
+              <img className="image" src={card.mockup} alt={card.projName} />
               <div className="description">
-                <h1>{card.name}</h1>
+                <h1 className="projectName">{card.projName}</h1>
                 <p className="applicationDescription">{card.description}</p>
                 <ul className="technologies">
-                  {card.technologies.map((tech) => (
+                  {card.technologies.map((tech, index) => (
                     <li
-                      className={`${card.name}-${tech.technology} technologyListItem`}
+                      className={`${card.projName}-${tech.technology} technologyListItem`}
+                      key={`${tech}::${index}`}
                     >
                       <img
                         className="techlogo"

@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   max-height: 100%;
+  width: 100vw;
 }
 
 .introduction {
@@ -14,6 +15,7 @@
   justify-self: self-start;
   z-index: 2;
 }
+
 svg {
   grid-column: 1;
   grid-column-end: span 3;
@@ -28,7 +30,6 @@ svg {
   grid-column-end: span 3;
   grid-row: 2;
   font-size: 1.5em;
-  width: inherit;
   color: white;
   margin: 0;
   padding-left: 5%;
@@ -40,7 +41,7 @@ svg {
 }
 
 .learnMoreBtn {
-  grid-column: 1;
+  grid-column-start: 1;
   grid-row: 3;
   background-color: #406269;
   border: none;
@@ -49,7 +50,6 @@ svg {
   font-size: 1.3rem;
   justify-self: end;
   padding: 1.5rem;
-  width: 20rem;
 }
 .learnMoreBtn:hover {
   color: black;
@@ -61,7 +61,6 @@ svg {
   grid-column-end: span 3;
   grid-row: 2;
   font-size: 1.5em;
-  width: inherit;
   color: white;
   margin: 0;
   padding-left: 5%;
@@ -70,5 +69,83 @@ svg {
   padding-bottom: 5%;
   background-color: #406269;
   background: linear-gradient(#2e5258 60%, #9da7c1);
-  transition: all 5s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  .introduction {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    z-index: 2;
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    max-height: 100%;
+    width: 100vw;
+    font-size: 1rem;
+  }
+
+  .bio {
+    grid-column-start: 1;
+    grid-row: 2;
+    font-size: 1.2em;
+    justify-self: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    margin: 0;
+    background-color: #406269;
+    background: linear-gradient(#2e5258 60%, #9da7c1);
+  }
+
+  .longBio {
+    grid-column-start: 1;
+    grid-row: 2;
+    font-size: 1.2em;
+    justify-self: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    margin: 0;
+    background-color: #406269;
+    background: linear-gradient(#2e5258 60%, #9da7c1);
+  }
+
+  .learnMoreBtn {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #406269;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    justify-self: center;
+    padding: 1rem;
+    width: 13rem;
+  }
+  .learnMoreBtn:hover {
+    color: black;
+    background-color: #718596;
+  }
+
+  svg {
+    height: auto;
+  }
+
+  .footerList {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row: 4;
+    padding-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .footerListItem {
+    justify-self: center;
+  }
 }
