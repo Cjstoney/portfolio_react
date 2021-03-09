@@ -1,12 +1,11 @@
 import React from "react";
 import "./contact.css";
-
 const Contact = () => {
   return (
     <ul id="footerList" className="footerList">
       <li className="footerListItem">
         <a
-          href="https://www.linkedin.com/in/camerone-stoney-b8a798177/"
+          href="https://www.linkedin.com/in/cam-stoney"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -32,7 +31,7 @@ const Contact = () => {
       </li>
       <li className="footerListItem">
         <a
-          href="../assets/Camerone_Stoney_Resume.pdf"
+          href="../assets/CameroneStoneyResume_word.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
