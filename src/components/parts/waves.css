@@ -1,0 +1,21 @@
+.wave {
+  width: 200vw;
+}
+.wave1 {
+  animation: wave linear 11s infinite;
+}
+.wave2 {
+  animation: wave linear 10s infinite;
+}
+.wave3 {
+  animation: wave linear 14s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(-50);
+  }
+  100% {
+    transform: translateX(-47%);
+  }
+}
