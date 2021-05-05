@@ -28,7 +28,7 @@ svg {
 .bio {
   grid-column-start: 1;
   grid-column-end: span 3;
-  grid-row: 2;
+  grid-row: 3;
   font-size: 1.5em;
   color: white;
   margin: 0;
@@ -42,7 +42,7 @@ svg {
 
 .learnMoreBtn {
   grid-column-start: 1;
-  grid-row: 3;
+  grid-row: 2;
   background-color: #406269;
   border: none;
   border-radius: 5px;
@@ -59,7 +59,7 @@ svg {
 .longBio {
   grid-column-start: 1;
   grid-column-end: span 3;
-  grid-row: 2;
+  grid-row: 3;
   font-size: 1.5em;
   color: white;
   margin: 0;
@@ -116,7 +116,7 @@ svg {
     background: linear-gradient(#2e5258 60%, #9da7c1);
   }
 
-  .learnMoreBtn {
+  /* .learnMoreBtn {
     grid-column: 1;
     grid-row: 3;
     background-color: #406269;
@@ -131,7 +131,7 @@ svg {
   .learnMoreBtn:hover {
     color: black;
     background-color: #718596;
-  }
+  } */
 
   svg {
     height: auto;

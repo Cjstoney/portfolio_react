@@ -28,13 +28,24 @@ const About = () => {
         CAMERONE
       </h1>
       <Waves />
+      {/* <button className="learnMoreBtn" onClick={() => addClass()}>
+        {`Want to know ${!!moreInfo ? "less" : "more"}?`}
+      </button> */}
+      <form>
+        <fieldset>
+          <legend>Select bio length</legend>
+          <input type="radio" name="length" value="shortest"></input>
+          <label for="length-shortest"> shortest </label>
+          <input type="radio" name="length" value="short"></input>
+          <label for="length-short"> </label>
+          <input type="radio" name="length" value="long"></input>
+          <label for="length-long"> long </label>
+        </fieldset>
+      </form>
       <p id="bioId" className="bio ">{`${shortBio} ${
         !!moreInfo ? extraInfo : ""
       }`}</p>
       <Contact />
-      <button className="learnMoreBtn" onClick={() => addClass()}>
-        {`Want to know ${!!moreInfo ? "less" : "more"}?`}
-      </button>
     </div>
   );
 };
