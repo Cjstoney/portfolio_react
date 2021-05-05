@@ -3,10 +3,11 @@ import "./waves.css";
 const Waves = () => {
   return (
     <svg
-      height="100%"
+      height="600"
       width="200vw"
       id="bg-svg"
       viewBox="0 0 1440 600"
+      preserveAspectRatio="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

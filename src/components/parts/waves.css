@@ -2,20 +2,23 @@
   width: 200vw;
 }
 .wave1 {
-  animation: wave linear 11s infinite;
+  animation: wave linear 16s;
 }
 .wave2 {
-  animation: wave linear 10s infinite;
+  animation: wave linear 14s;
 }
 .wave3 {
-  animation: wave linear 14s infinite;
+  animation: wave linear 12s;
 }
 
 @keyframes wave {
   0% {
-    transform: translateX(-50);
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-47%);
+    transform: translateX(0%);
   }
 }
