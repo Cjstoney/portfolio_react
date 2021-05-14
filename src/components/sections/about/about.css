@@ -40,21 +40,26 @@ svg {
   background: linear-gradient(#2e5258 60%, #9da7c1);
 }
 
-.learnMoreBtn {
+.bio-length-form {
+  background-color: #2e5258;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+}
+/* .learnMoreBtn {
   grid-column-start: 1;
   grid-row: 2;
   background-color: #406269;
-  border: none;
+  
   border-radius: 5px;
-  color: white;
-  font-size: 1.3rem;
+  
   justify-self: end;
   padding: 1.5rem;
-}
-.learnMoreBtn:hover {
+} */
+/* .learnMoreBtn:hover {
   color: black;
   background-color: #718596;
-}
+} */
 
 .longBio {
   grid-column-start: 1;
