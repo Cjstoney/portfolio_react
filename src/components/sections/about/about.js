@@ -43,6 +43,7 @@ const About = () => {
             </p>
           );
         }
+        return null;
       })}
 
       <Contact />
