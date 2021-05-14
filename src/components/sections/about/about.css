@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   max-height: 100%;
-  width: 100vw;
+  width: 100%;
 }
 
 .introduction {
@@ -24,7 +24,13 @@ svg {
   align-self: center;
   z-index: 1;
 }
-
+.form-container {
+  display: flex;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #2e5258;
+}
 .bio {
   grid-column-start: 1;
   grid-column-end: span 3;
@@ -32,12 +38,12 @@ svg {
   font-size: 1.5em;
   color: white;
   margin: 0;
+  max-width: 90vw;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 3%;
   padding-bottom: 5%;
-  background-color: #406269;
-  background: linear-gradient(#2e5258 60%, #9da7c1);
+  background-color: #2e5258;
 }
 
 .bio-length-form {
@@ -45,6 +51,11 @@ svg {
   border: none;
   color: white;
   font-size: 1.3rem;
+  /* width: 100vw; */
+}
+
+.bio-fieldset {
+  border: none;
 }
 /* .learnMoreBtn {
   grid-column-start: 1;

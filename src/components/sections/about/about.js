@@ -15,24 +15,26 @@ const About = () => {
         CAMERONE
       </h1>
       <Waves />
-      <form className="bio-length-form">
-        <fieldset>
-          <legend>Select bio length</legend>
-          {bios.map((bio) => {
-            return (
-              <span>
-                <input
-                  type="radio"
-                  name="length"
-                  value={bio.length}
-                  onClick={() => changeLength(bio.length)}
-                ></input>
-                <label for={`length-${bio.length}`}> {bio.length} </label>
-              </span>
-            );
-          })}
-        </fieldset>
-      </form>
+      <div className="form-container">
+        <form className="bio-length-form">
+          <fieldset className="bio-fieldset">
+            <legend>Select bio length</legend>
+            {bios.map((bio) => {
+              return (
+                <span>
+                  <input
+                    type="radio"
+                    name="length"
+                    value={bio.length}
+                    onClick={() => changeLength(bio.length)}
+                  ></input>
+                  <label for={`length-${bio.length}`}> {bio.length} </label>
+                </span>
+              );
+            })}
+          </fieldset>
+        </form>
+      </div>
       {bios.map((bio) => {
         if (bio.length === bioLength) {
           return (
@@ -41,14 +43,9 @@ const About = () => {
             </p>
           );
         }
-        return (
-          <p id="bioId" className="bio ">
-            {bios[1].bioText}
-          </p>
-        );
       })}
 
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 };
