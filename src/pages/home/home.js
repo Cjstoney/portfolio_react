@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import About from "../../components/sections/about/about";
+import About from "../../components/about/about";
 import "./home.css";
-import PortfolioCard from "../../components/parts/portfolioCard/portfolioCard";
+import PortfolioCard from "../../components/portfolioCard/portfolioCard";
 
 const Home = () => {
   useEffect(() => {

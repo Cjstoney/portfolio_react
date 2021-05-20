@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Waves from "../../parts/waves";
+import Waves from "../waves/waves";
 import Contact from "../contact/contact";
 import "./about.css";
 import bios from "../../bio.json";
