@@ -1,4 +1,5 @@
 import React from "react";
+import "./lengthPicker.css";
 
 const LengthPicker = ({ bios, changeLength }) => {
   return (
