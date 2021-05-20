@@ -4,6 +4,7 @@ import Waves from "../../parts/waves";
 import Contact from "../contact/contact";
 import "./about.css";
 import bios from "../../../bio.json";
+import LengthPicker from "../../lengthPicker/lengthPicker";
 
 const About = () => {
   const [bioLength, changeLength] = useState("short");
@@ -16,29 +17,12 @@ const About = () => {
       </h1>
       <Waves />
       <div className="form-container">
-        <form className="bio-length-form">
-          <fieldset className="bio-fieldset">
-            <legend>Select bio length</legend>
-            {bios.map((bio) => {
-              return (
-                <span>
-                  <input
-                    type="radio"
-                    name="length"
-                    value={bio.length}
-                    onClick={() => changeLength(bio.length)}
-                  ></input>
-                  <label for={`length-${bio.length}`}> {bio.length} </label>
-                </span>
-              );
-            })}
-          </fieldset>
-        </form>
+        <LengthPicker bios={bios} changeLength={changeLength} />
       </div>
-      {bios.map((bio) => {
+      {bios.map((bio, index) => {
         if (bio.length === bioLength) {
           return (
-            <p id="bioId" className="bio ">
+            <p key={index} id="bioId" className="bio ">
               {bio.bioText}
             </p>
           );
