@@ -46,21 +46,6 @@ svg {
   background-color: #2e5258;
 }
 
-.longBio {
-  grid-column-start: 1;
-  grid-column-end: span 3;
-  grid-row: 3;
-  font-size: 1.5em;
-  color: white;
-  margin: 0;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 3%;
-  padding-bottom: 5%;
-  background-color: #406269;
-  background: linear-gradient(#2e5258 60%, #9da7c1);
-}
-
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -73,15 +58,6 @@ svg {
 }
 
 @media only screen and (max-width: 600px) {
-  .introduction {
-    align-self: center;
-    grid-column: 1;
-    grid-row: 1;
-    justify-self: center;
-    z-index: 2;
-    font-size: 3rem;
-    margin-bottom: 0;
-  }
   .about-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -91,22 +67,19 @@ svg {
     font-size: 1rem;
   }
 
-  .bio {
-    grid-column-start: 1;
-    grid-row: 2;
-    font-size: 1.2em;
+  .introduction {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1;
     justify-self: center;
-    color: white;
-    padding-top: 15%;
-    padding-bottom: 25%;
-    margin: 0;
-    background-color: #406269;
-    background: linear-gradient(#2e5258 60%, #9da7c1);
+    z-index: 2;
+    font-size: 3rem;
+    margin-bottom: 0;
   }
 
-  .longBio {
+  .bio {
     grid-column-start: 1;
-    grid-row: 2;
+    grid-row: 3;
     font-size: 1.2em;
     justify-self: center;
     color: white;
@@ -119,17 +92,5 @@ svg {
 
   svg {
     height: auto;
-  }
-
-  .footerList {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-    grid-row: 4;
-    padding-top: 10%;
-    margin-bottom: 10%;
-  }
-
-  .footerListItem {
-    justify-self: center;
   }
 }

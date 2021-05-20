@@ -19,3 +19,17 @@
   position: fixed;
   top: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .footerList {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row: 4;
+    padding-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .footerListItem {
+    justify-self: center;
+  }
+}
