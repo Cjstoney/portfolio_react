@@ -1,7 +1,7 @@
 import React from "react";
 import "./lengthPicker.css";
 
-const LengthPicker = ({ bios, changeLength }) => {
+const LengthPicker = ({ bios, changeLength, bioLength }) => {
   return (
     <form className="bio-length-form">
       <fieldset className="bio-fieldset">
@@ -15,6 +15,7 @@ const LengthPicker = ({ bios, changeLength }) => {
                 className="control-input visually-hidden "
                 value={bio.length}
                 onClick={() => changeLength(bio.length)}
+                defaultChecked={bio.length === bioLength}
               ></input>
               <span className="control-indicator"></span>
               {index === 0 || index === bios.length - 1 ? bio.length : ""}{" "}

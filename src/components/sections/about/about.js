@@ -17,7 +17,11 @@ const About = () => {
       </h1>
       <Waves />
       <div className="form-container">
-        <LengthPicker bios={bios} changeLength={changeLength} />
+        <LengthPicker
+          bios={bios}
+          changeLength={changeLength}
+          bioLength={bioLength}
+        />
       </div>
       {bios.map((bio, index) => {
         if (bio.length === bioLength) {
