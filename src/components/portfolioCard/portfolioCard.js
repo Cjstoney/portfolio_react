@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolioCard.css";
-import cards from "../../../cards.json";
+import cards from "../cards.json";
 
 const PortfolioCard = () => {
   return (
