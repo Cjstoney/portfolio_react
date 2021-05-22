@@ -88,6 +88,7 @@ svg {
     margin: 0;
     background-color: #406269;
     background: linear-gradient(#2e5258 60%, #9da7c1);
+    width: 100%;
   }
 
   svg {
