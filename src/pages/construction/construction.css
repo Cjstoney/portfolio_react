@@ -12,6 +12,23 @@
 .constructionText,
 .developerName,
 .textExplanation {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Roboto Mono";
   justify-self: center;
+}
+.emailLink {
+  color: #78957f;
+  justify-self: center;
+  text-decoration: none;
+}
+.emailLink:hover {
+  border: 2px, solid, #78957f;
+}
+
+#constructionTitle {
+  margin-top: 20%;
+  margin-bottom: 30%;
+}
+
+#nameHeader {
+  margin: 0em;
 }
