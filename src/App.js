@@ -1,5 +1,6 @@
 import React from "react";
-import Home from "./pages/home/home";
+// import Home from "./pages/home/home";
+import Construction from "./pages/construction/construction";
 
 class App extends React.Component {
   state = {
@@ -13,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Home />
+        <Construction />
       </div>
     );
   }
