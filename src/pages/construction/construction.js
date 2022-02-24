@@ -10,7 +10,7 @@ export default function Construction() {
           portfolio in progress
         </h1>
         <h2 className="developerName" id="nameHeader">
-          camerone Stoney
+          camerone stoney
         </h2>
         <h3 className="textExplanation">
           developer / implementation engineer / woodworker / avid learner
