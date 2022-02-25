@@ -7,10 +7,10 @@ class App extends React.Component {
     scrollY: 0,
   };
 
-  handleScroll = (event) => {
-    this.setState({ scrollY: window.scrollY });
-    console.log(window.scrollY);
-  };
+  // handleScroll = (event) => {
+  //   this.setState({ scrollY: window.scrollY });
+  //   console.log(window.scrollY);
+  // };
   render() {
     return (
       <div>
