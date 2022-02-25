@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="about-content">
       <h1 className="introduction">
-        HI, I'M <br />
+        HI, I' M <br />
         CAMERONE
       </h1>
       <Waves />
