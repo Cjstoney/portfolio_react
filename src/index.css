@@ -12,17 +12,17 @@ body {
 
 html {
   scroll-behavior: smooth;
-  background-color: #1d1d1d;
+  background-color: #121431;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
     padding-bottom: 100px;
-    margin-bottom: 100px; */
-/* box-sizing: border-box; */
-/* } */
-/* } */
+    margin-bottom: 100px;
+    box-sizing: border-box;
+  }
+}
