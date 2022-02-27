@@ -1,40 +1,24 @@
 import React from "react";
-import { useState } from "react";
-import Waves from "../waves/waves";
-import Contact from "../contact/contact";
 import "./about.css";
-import bios from "../../bio.json";
-import LengthPicker from "../lengthPicker/lengthPicker";
+import { ArrowForward } from "@material-ui/icons";
 
 const About = () => {
-  const [bioLength, changeLength] = useState("short");
-
   return (
     <div className="about-content">
       <h1 className="introduction">
-        HI, I' M <br />
-        CAMERONE
+        Hello. <br />I am <span className="name">Camerone</span>
       </h1>
-      <Waves />
-      <div className="form-container">
-        <LengthPicker
-          bios={bios}
-          changeLength={changeLength}
-          bioLength={bioLength}
-        />
+      <div className="small-text-container">
+        <ArrowForward className="arrow-icon" />
+        <p className="introduction-text">
+          Web Developer. Woodworker. Avid Learner.
+        </p>
+        <p className="introduction-text">
+          Currently employed at
+          <span className="text-accent-color"> Softcrylic</span> as an
+          <span className="text-accent-color"> Implementation Engineer</span>.
+        </p>
       </div>
-      {bios.map((bio, index) => {
-        if (bio.length === bioLength) {
-          return (
-            <p key={index} id="bioId" className="bio ">
-              {bio.bioText}
-            </p>
-          );
-        }
-        return null;
-      })}
-
-      <Contact />
     </div>
   );
 };
