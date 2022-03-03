@@ -13,12 +13,35 @@
   grid-column-start: 2;
   grid-column-end: 5;
 }
+.emailLink,
+.emailLink:hover {
+  align-self: start;
+  align-items: center;
+  color: var(--accent-color);
+  display: grid;
+  font-family: var(--accent-font);
+  grid-row: 3;
+  grid-column-start: 2;
+  height: 2rem;
+  justify-content: center;
+  justify-self: start;
+  margin-top: 3rem;
+  padding: 5px 11px;
+  text-decoration: none;
+  width: fit-content;
+}
+.emailLink:hover {
+  border: 2px solid var(--accent-color);
+}
+.emailLink {
+  border: 1px solid var(--accent-color);
+}
 
 .introduction {
   align-self: center;
   grid-row: 1;
   justify-self: start;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 0;
 }
 .small-text-container {
@@ -43,7 +66,7 @@
   justify-self: end;
   margin-top: 1rem;
   position: relative;
-  width: 11.5rem;
+  width: 13rem;
   z-index: 5;
 }
 .picture::after {
