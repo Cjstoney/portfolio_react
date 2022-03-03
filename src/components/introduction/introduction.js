@@ -2,9 +2,9 @@ import React from "react";
 import "./introduction.css";
 import { ArrowForward } from "@material-ui/icons";
 
-const Introduction = () => {
+const Introduction = ({ className }) => {
   return (
-    <div className="about-content">
+    <div className={className}>
       <h1 className="introduction">
         Hello. <br />I am <span className="name">Camerone</span>
       </h1>
@@ -28,14 +28,6 @@ const Introduction = () => {
       >
         Let's Connect
       </a>
-
-      <picture className="picture">
-        <img
-          src="/images/cameroneStoney.png"
-          alt="Image of Camerone Stoney"
-          className="self-image"
-        />
-      </picture>
     </div>
   );
 };

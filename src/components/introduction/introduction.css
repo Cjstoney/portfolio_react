@@ -56,35 +56,6 @@
 .arrow-icon {
   transform: rotate(45deg);
 }
-.picture {
-  background: none;
-  display: block;
-  filter: grayscale(25%);
-  grid-column-start: 2;
-  grid-column-end: span 2;
-  grid-row: 3;
-  justify-self: end;
-  margin-top: 1rem;
-  position: relative;
-  width: 13rem;
-  z-index: 5;
-}
-.picture::after {
-  border: 1px solid var(--accent-color);
-  box-sizing: inherit;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 1rem;
-  top: 0.5rem;
-  position: absolute;
-  width: 100%;
-  visibility: visible;
-  z-index: -1;
-}
-.self-image {
-  max-width: 100%;
-}
 
 .text-accent-color,
 .name {
