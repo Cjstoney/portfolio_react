@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: var(--background-color);
   margin-top: 2%;
 }
 .textContainer {
@@ -16,14 +16,14 @@
   justify-self: center;
   margin-bottom: 6em;
 }
-.emailLink {
+/* .emailLink {
   color: #78957f;
   justify-self: center;
   text-decoration: none;
-}
-.emailLink:hover {
+} */
+/* .emailLink:hover {
   border: 2px, solid, #78957f;
-}
+} */
 
 #constructionTitle {
   margin-top: 20%;
@@ -33,28 +33,27 @@
 #nameHeader {
   margin: 0em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 870px) {
   .textContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .constructionText,
   .developerName,
-  .textExplanation,
-  .emailLink {
+  .textExplanation {
     font-family: "Roboto Mono";
     justify-self: center;
     grid-column-start: 2;
     grid-column-end: span 1;
   }
-  #directEmail {
+  /* #directEmail {
     color: #78957f;
     text-decoration: none;
     justify-self: start;
-  }
-  .emailLink:hover {
+  } */
+  /* .emailLink:hover {
     border: 2px, solid, #78957f;
-  }
+  } */
   #constructionTitle {
     margin-top: 2em;
     margin-bottom: 5em;

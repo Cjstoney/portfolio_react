@@ -1,18 +1,21 @@
-import React, { useEffect } from "react";
-import About from "../../components/about/about";
+import React from "react";
+import {
+  AboutMeComponent,
+  ExperienceComponent,
+  HeaderComponent,
+  IntroductionComponent,
+  PortfolioSectionComponent,
+} from "../../components/index";
 import "./home.css";
-import PortfolioCard from "../../components/portfolioCard/portfolioCard";
 
 const Home = () => {
-  useEffect(() => {
-    let el = document.querySelector(".homePage");
-    el.classList.add("fade-in");
-  }, []);
-
   return (
     <div className="homePage">
-      <About className="aboutSection" />
-      <PortfolioCard />
+      <HeaderComponent className="header-container" />
+      <IntroductionComponent className="about-content" />
+      <AboutMeComponent className="about-me-container" />
+      <ExperienceComponent className="experience-container" />
+      <PortfolioSectionComponent className="portfolio-container" />
     </div>
   );
 };
