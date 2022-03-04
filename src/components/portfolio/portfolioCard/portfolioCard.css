@@ -2,21 +2,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 100px);
+  padding: 1rem;
 }
 
 .folder-icon,
 .gh-outline {
   grid-row: 1;
-  margin-top: 1rem;
 }
 .gh-outline {
   grid-column: 3;
   justify-self: end;
-  margin-right: 1rem;
 }
 .folder-icon {
   justify-self: start;
-  margin-left: 1rem;
 }
 .proj-title {
   grid-row: 2;
@@ -28,4 +26,21 @@ div.proj-description {
   font-family: var(--accent-font);
   font-size: 0.75rem;
   margin-top: 0.75rem;
+}
+
+.proj-tech {
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding-bottom: 0.5rem;
+}
+
+.individual-tech {
+  align-self: end;
+  color: #bebebe;
+  font-family: var(--accent-font);
+  font-size: 0.75rem;
+  justify-self: start;
 }
