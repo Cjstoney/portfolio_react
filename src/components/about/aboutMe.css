@@ -19,24 +19,8 @@
 }
 .about-me-header {
   grid-row: 1;
-  display: flex;
-  align-items: center;
-  justify-items: flex-start;
 }
 
-.about-me-header-text {
-  font-size: 2rem;
-  font-family: var(--default-font);
-  display: block;
-  grid-row: 1;
-  margin: 0;
-}
-.visual-line {
-  color: white;
-  width: 75%;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .about-me-picture {
   background: none;
   display: block;
@@ -48,7 +32,8 @@
   align-self: start;
   margin-top: 1rem;
   position: relative;
-  width: 13rem;
+  /* width: 13rem; */
+  width: 40%;
   z-index: 5;
 }
 .about-me-picture::after {

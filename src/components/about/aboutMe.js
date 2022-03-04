@@ -1,14 +1,14 @@
 import React from "react";
 import "./aboutMe.css";
+import { SectionHeaderComponent } from "../index";
 
 function AboutMe({ className }) {
   return (
     <div className={className}>
-      <div className="about-me-header">
-        <h3 className="about-me-header-text">About Me</h3>
-        <hr className="visual-line"></hr>
-      </div>
-
+      <SectionHeaderComponent
+        className="about-me-header"
+        headerText="About Me"
+      />
       <div className="about-me-content">
         Hi, my name is Camerone Stoney and I like to make things on the web. In
         2019 I completed a full stack web development boot camp after dabbling

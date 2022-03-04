@@ -9,7 +9,7 @@ function Experience({ className }) {
         return (
           <li key={index} className="individual-job-container">
             <div className="job-title">
-              {job.title} <span>@ {job.company}</span>
+              {job.title} <span className="job-accent">@ {job.company}</span>
             </div>
             <div className="employment-time">
               {job.startDate} - {job.endDate}
