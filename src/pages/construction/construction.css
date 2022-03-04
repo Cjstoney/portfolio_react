@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: var(--background-color);
   margin-top: 2%;
 }
 .textContainer {
@@ -33,7 +33,7 @@
 #nameHeader {
   margin: 0em;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 870px) {
   .textContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

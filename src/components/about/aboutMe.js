@@ -4,7 +4,7 @@ import { SectionHeaderComponent } from "../index";
 
 function AboutMe({ className }) {
   return (
-    <div className={className}>
+    <div className={className} id="aboutMeSection">
       <SectionHeaderComponent
         className="about-me-header"
         headerText="About Me"
@@ -19,7 +19,7 @@ function AboutMe({ className }) {
       <picture className="about-me-picture">
         <img
           src="/images/cameroneStoney.png"
-          alt="Image of Camerone Stoney"
+          alt="Camerone Stoney"
           className="self-image"
         />
       </picture>

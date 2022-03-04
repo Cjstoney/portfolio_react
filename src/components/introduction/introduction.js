@@ -4,7 +4,7 @@ import { ArrowForward } from "@material-ui/icons";
 
 const Introduction = ({ className }) => {
   return (
-    <div className={className}>
+    <div className={className} id="introductionSection">
       <h1 className="introduction">
         Hello. <br />I am <span className="name">Camerone</span>
       </h1>
