@@ -1,12 +1,13 @@
 import React from "react";
 
-function GithubOutline() {
+function GithubOutline({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20.373"
       height="21.8"
       viewBox="0 0 20.373 21.8"
+      className={className}
     >
       <path
         id="Icon_feather-github"
