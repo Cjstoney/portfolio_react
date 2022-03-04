@@ -1,0 +1,31 @@
+.portfolio-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.folder-icon,
+.gh-outline {
+  grid-row: 1;
+  margin-top: 1rem;
+}
+.gh-outline {
+  grid-column: 3;
+  justify-self: end;
+  margin-right: 1rem;
+}
+.folder-icon {
+  justify-self: start;
+  margin-left: 1rem;
+}
+.proj-title {
+  grid-row: 2;
+  grid-column: span 3;
+  font-family: var(--default-font);
+  color: var(--header-color);
+}
+div.proj-description {
+  font-family: var(--accent-font);
+  font-size: 0.75rem;
+  margin-top: 0.75rem;
+}
