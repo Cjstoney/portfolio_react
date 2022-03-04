@@ -5,9 +5,13 @@
   margin-top: 5rem;
 }
 
-.portfolio-header {
+.portfolio-header,
+.cards-container {
   grid-column-start: 2;
   grid-column-end: span 3;
+}
+
+.portfolio-header {
   margin-bottom: 2rem;
   font-family: var(--default-font);
 }
@@ -15,8 +19,6 @@
 .cards-container {
   display: grid;
   grid-row-start: 2;
-  grid-column-start: 2;
-  grid-column-end: span 3;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   grid-auto-rows: minMax(100px, auto);
