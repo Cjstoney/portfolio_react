@@ -14,7 +14,7 @@ const PortfolioSection = ({ className }) => {
           return (
             <PortfolioCardComponent
               className="portfolio-card"
-              index={index}
+              key={index}
               card={card}
             />
           );
