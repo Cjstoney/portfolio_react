@@ -16,14 +16,14 @@
   justify-self: center;
   margin-bottom: 6em;
 }
-.emailLink {
+/* .emailLink {
   color: #78957f;
   justify-self: center;
   text-decoration: none;
-}
-.emailLink:hover {
+} */
+/* .emailLink:hover {
   border: 2px, solid, #78957f;
-}
+} */
 
 #constructionTitle {
   margin-top: 20%;
@@ -40,21 +40,20 @@
   }
   .constructionText,
   .developerName,
-  .textExplanation,
-  .emailLink {
+  .textExplanation {
     font-family: "Roboto Mono";
     justify-self: center;
     grid-column-start: 2;
     grid-column-end: span 1;
   }
-  #directEmail {
+  /* #directEmail {
     color: #78957f;
     text-decoration: none;
     justify-self: start;
-  }
-  .emailLink:hover {
+  } */
+  /* .emailLink:hover {
     border: 2px, solid, #78957f;
-  }
+  } */
   #constructionTitle {
     margin-top: 2em;
     margin-bottom: 5em;
