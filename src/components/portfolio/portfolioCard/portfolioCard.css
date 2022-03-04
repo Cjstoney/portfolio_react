@@ -34,7 +34,7 @@ div.proj-description {
   grid-column-start: 1;
   grid-column-end: span 3;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   padding-bottom: 0.5rem;
 }
 
@@ -42,6 +42,6 @@ div.proj-description {
   align-self: end;
   color: #bebebe;
   font-family: var(--accent-font);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   justify-self: start;
 }
