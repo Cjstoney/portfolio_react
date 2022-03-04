@@ -8,8 +8,4 @@ https://www.cameronestoney.com
 - HTML5
 - CSS3
 - react
-- react-dom
-- react-router-dom
-- react-scripts
 
-## Images Of The Site
