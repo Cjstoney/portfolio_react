@@ -6,7 +6,7 @@
     "ghURL": "https://github.com/VolksRat71/roadtripperzzz",
     "image": "images/roadtriperzzz.png",
     "mockup": "images/roadtriperzzzMockup.png",
-    "description": "Roadtripperzzz is an application that helps users plan a road trip in Oregon. Users enter their name and current location, and Roadtripperzzz gives them a destination, directions and a weather report for the destination.",
+    "description": "Roadtripperzzz is an application that helps users plan a road trip in Oregon.",
     "technologies": [
       {
         "technology": "HTML5",
