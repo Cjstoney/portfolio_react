@@ -11,7 +11,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="homePage">
-      <HeaderComponent />
+      <HeaderComponent className="header-container" />
       <IntroductionComponent className="about-content" />
       <AboutMeComponent className="about-me-container" />
       <ExperienceComponent className="experience-container" />
