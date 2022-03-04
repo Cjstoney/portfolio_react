@@ -84,6 +84,9 @@
       },
       {
         "technology": "CSS3"
+      },
+      {
+        "technology": "Javascript"
       }
     ]
   }
