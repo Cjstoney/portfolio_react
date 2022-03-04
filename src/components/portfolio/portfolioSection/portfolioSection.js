@@ -4,7 +4,7 @@ import cards from "../../../cards.json";
 import { SectionHeaderComponent, PortfolioCardComponent } from "../../index";
 const PortfolioSection = ({ className }) => {
   return (
-    <div className={className}>
+    <div className={className} id="portfolioSection">
       <SectionHeaderComponent
         className="portfolio-header"
         headerText="Projects"

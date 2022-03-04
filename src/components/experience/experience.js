@@ -4,7 +4,7 @@ import Jobs from "../../jobs.json";
 import { SectionHeaderComponent } from "../index";
 function Experience({ className }) {
   return (
-    <div className={className}>
+    <div className={className} id="experienceSection">
       <SectionHeaderComponent
         className="experience-header"
         headerText="Experience"
