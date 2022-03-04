@@ -15,6 +15,7 @@
 
 .about-me-content {
   grid-row: 2;
+  width: 90%;
   font-family: var(--accent-font);
 }
 .about-me-header {
