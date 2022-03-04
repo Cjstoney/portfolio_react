@@ -19,7 +19,7 @@ function AboutMe({ className }) {
       <picture className="about-me-picture">
         <img
           src="/images/cameroneStoney.png"
-          alt="Image of Camerone Stoney"
+          alt="Camerone Stoney"
           className="self-image"
         />
       </picture>
