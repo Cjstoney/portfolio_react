@@ -1,6 +1,6 @@
 import React from "react";
 
-function Logo() {
+function Logo({ className }) {
   return (
     <svg
       id="Group_11"
@@ -9,6 +9,7 @@ function Logo() {
       width="27.427"
       height="27.419"
       viewBox="0 0 27.427 27.419"
+      className={className}
     >
       <defs>
         <clipPath id="clip-path">

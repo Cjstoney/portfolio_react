@@ -14,7 +14,7 @@ const App = () => {
     };
   }, []);
 
-  return <div>{width > 870 ? <Home /> : <Construction />}</div>;
+  return <div>{width > 0 ? <Home width={width} /> : <Construction />}</div>;
 };
 
 export default App;
