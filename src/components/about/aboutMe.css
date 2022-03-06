@@ -1,5 +1,4 @@
 .about-me-container {
-  margin-top: 5rem;
   display: grid;
   font-size: 1rem;
   grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
@@ -33,7 +32,6 @@
   align-self: start;
   margin-top: 1rem;
   position: relative;
-  /* width: 13rem; */
   width: 40%;
   z-index: 5;
 }
@@ -54,7 +52,24 @@
   max-width: 100%;
 }
 @media only screen and (max-width: 600px) {
-  .picture {
-    width: 11.5rem;
+  .about-me-content,
+  .about-me-header {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+  }
+  .about-me-container {
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .about-me-header {
+    grid-row: 1;
+    align-self: end;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-me-picture {
+    width: 60%;
+    grid-row: 1;
+    grid-column-start: 3;
+    grid-column-end: span 2;
   }
 }

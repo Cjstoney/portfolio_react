@@ -11,3 +11,10 @@
   margin-left: 25%;
   margin-top: 10%;
 }
+
+.about-content,
+.about-me-container,
+.experience-container,
+.portfolio-container {
+  margin-top: 1.5rem;
+}

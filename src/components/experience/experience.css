@@ -1,5 +1,4 @@
 .experience-container {
-  margin-top: 5rem;
   display: grid;
   font-size: 1rem;
   grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
@@ -28,4 +27,10 @@
 .individual-job-container {
   margin-top: 0.5rem;
   margin-bottom: 1.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience-container {
+    grid-template-rows: 5rem auto;
+  }
 }

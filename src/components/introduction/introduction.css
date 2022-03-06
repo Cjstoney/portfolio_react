@@ -73,6 +73,16 @@
     width: 100vw;
   }
 
+  .emailLink,
+  .emailLink:hover {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    align-self: center;
+    font-size: 0.75rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+  }
+
   .introduction,
   .small-text-container {
     grid-column-start: 2;
