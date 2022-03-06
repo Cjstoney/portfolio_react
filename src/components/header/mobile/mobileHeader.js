@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuTripleDotComponent, LogoComponent } from "../../index";
+import { LogoComponent } from "../../index";
 import "./mobileHeader.css";
 
 function MobileHeader({ className }) {
