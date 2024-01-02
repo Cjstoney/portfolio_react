@@ -1,19 +1,36 @@
 [
   {
+    "title": "Lead Developer",
+    "company": "Thesis",
+    "href": "https://thesis.agency",
+    "startDate": "October 2023",
+    "endDate": "Present"
+  },
+  {
+    "title": "Developer",
+    "company": "Thesis",
+    "href": "https://thesis.agency",
+    "startDate": "May 2022",
+    "endDate": "October 2023"
+  },
+  {
     "title": "Analytics Implementation Engineer",
     "company": "Softcrylic",
+    "href": "https://www.softcrylic.com/",
     "startDate": "March 2021",
-    "endDate": "Present"
+    "endDate": "May 2022"
   },
   {
     "title": "Volunteer Mentor",
     "company": "The Collab Lab",
+    "href": "https://the-collab-lab.codes/",
     "startDate": "July 2021",
     "endDate": "September 2021"
   },
   {
     "title": "Full-Stack Software Engineer",
     "company": "Lucid Creative LLC.",
+    "href": "https://www.lucid.rocks/rocketship",
     "startDate": "January 2020",
     "endDate": "November 2020"
   }

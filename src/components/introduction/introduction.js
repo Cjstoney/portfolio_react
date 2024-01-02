@@ -15,8 +15,8 @@ const Introduction = ({ className }) => {
         </p>
         <p className="introduction-text" id="desktop-only">
           Currently employed at
-          <span className="text-accent-color"> Softcrylic</span> as an
-          <span className="text-accent-color"> Implementation Engineer</span>.
+          <span className="text-accent-color"> Thesis</span> as a
+          <span className="text-accent-color"> Lead Developer</span>.
         </p>
       </div>
       <a

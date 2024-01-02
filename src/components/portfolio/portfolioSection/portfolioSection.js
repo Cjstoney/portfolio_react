@@ -10,7 +10,7 @@ const PortfolioSection = ({ className }) => {
         headerText="Projects"
       />
       <div className="cards-container">
-        {cards.reverse().map((card, index) => {
+        {cards.map((card, index) => {
           return (
             <PortfolioCardComponent
               className="portfolio-card"

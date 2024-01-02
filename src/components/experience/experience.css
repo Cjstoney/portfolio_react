@@ -2,7 +2,6 @@
   display: grid;
   font-size: 1rem;
   grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
-  grid-template-rows: 5rem 15rem;
   max-height: 100%;
   width: 100vw;
 }
@@ -27,6 +26,11 @@
 .individual-job-container {
   margin-top: 0.5rem;
   margin-bottom: 1.75rem;
+}
+
+.individual-job-container > .job-title > .job-accent > a{
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
 @media only screen and (max-width: 600px) {
